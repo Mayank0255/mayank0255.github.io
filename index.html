@@ -1141,28 +1141,54 @@
                         </div>
                         <div class='contact-form'>
                             <div id='error_message'></div>
-                            <form action='/contact' method='POST' id='myform' onsubmit='return validate();'>
+                            <form name="complaint-form" action='https://formspree.io/f/mnqojwzl' method='POST' id='myform' onsubmit='return validate();'>
                                 <div class='input_field'>
-                                    <input type='text' name='contact[name]' placeholder='Name' id='name'
-                                           autocomplete='off' required>
+                                    <input
+                                            id='name'
+                                            name='Name'
+                                            type='text'
+                                            placeholder='Name'
+                                            autocomplete='off'
+                                            required
+                                    >
                                 </div>
                                 <div class='input_field'>
-                                    <input type='text' name='contact[subject]' placeholder='Subject' autocomplete='off'
-                                           id='subject'
-                                           required>
+                                    <input
+                                            id='subject'
+                                            name='_subject'
+                                            type='text'
+                                            placeholder='Subject'
+                                            autocomplete='off'
+                                            required
+                                    >
                                 </div>
                                 <div class='input_field'>
-                                    <input type='text' name='contact[email]' placeholder='Email' id='email'
-                                           autocomplete='off' required>
+                                    <input
+                                            id='email'
+                                            name='_replyto'
+                                            type='text'
+                                            placeholder='Email'
+                                            autocomplete='off'
+                                            required
+                                    >
                                 </div>
                                 <div class='input_field'>
-                                    <textarea rows='4' placeholder='Message...' name='contact[message]'
-                                              autocomplete='off' id='message'
-                                              required></textarea>
+                                    <textarea
+                                            id='message'
+                                            name='Message'
+                                            placeholder='Message...'
+                                            rows='4'
+                                            autocomplete='off'
+                                            required
+                                    ></textarea>
                                 </div>
                                 <div class='submit-btn'>
-                                    <input style='margin-top: 0px; line-height: normal;' type='submit'>
+                                    <input
+                                            type='submit'
+                                            style='margin-top: 0px; line-height: normal;'
+                                    >
                                 </div>
+                                <input type="text" name="_gotcha" style="display:none" />
                             </form>
                         </div>
                     </div>
