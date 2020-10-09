@@ -3,7 +3,7 @@
 
 @font-face {
     font-family: futuraconlight;
-    src: url(../fonts/futura_light_font-webfont.woff2) format("woff2"), url(../fonts/futura_light_font-webfont.woff) format("woff");
+    src: url(../assets/fonts/futura_light_font-webfont.woff2) format("woff2"), url(../assets/fonts/futura_light_font-webfont.woff) format("woff");
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -11,7 +11,7 @@
 
 @font-face {
     font-family: futuraLight;
-    src: url(../fonts/futura_light_bt-webfont.woff2) format("woff2"), url(../fonts/futura_light_bt-webfont.woff) format("woff");
+    src: url(../assets/fonts/futura_light_bt-webfont.woff2) format("woff2"), url(../assets/fonts/futura_light_bt-webfont.woff) format("woff");
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -19,7 +19,7 @@
 
 @font-face {
     font-family: proxima_novaextrabold;
-    src: url(../fonts/proxima_nova_extrabold-webfont.woff2) format("woff2"), url(../fonts/proxima_nova_extrabold-webfont.woff) format("woff");
+    src: url(../assets/fonts/proxima_nova_extrabold-webfont.woff2) format("woff2"), url(../assets/fonts/proxima_nova_extrabold-webfont.woff) format("woff");
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -27,7 +27,7 @@
 
 @font-face {
     font-family: futuramedium;
-    src: url(../fonts/futura_medium_bt-webfont.woff2) format("woff2"), url(../fonts/futura_medium_bt-webfont.woff) format("woff");
+    src: url(../assets/fonts/futura_medium_bt-webfont.woff2) format("woff2"), url(../assets/fonts/futura_medium_bt-webfont.woff) format("woff");
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -35,7 +35,7 @@
 
 @font-face {
     font-family: proxima_novabold;
-    src: url(../fonts/proxima_nova_bold-webfont.woff2) format("woff2"), url(../fonts/proxima_nova_bold-webfont.woff) format("woff");
+    src: url(../assets/fonts/proxima_nova_bold-webfont.woff2) format("woff2"), url(../assets/fonts/proxima_nova_bold-webfont.woff) format("woff");
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -421,182 +421,182 @@ header .displayNone {
 }
 
 .image1 {
-    background: url(../images/stackoverflow/1.webp) 50% no-repeat;
+    background: url(../assets/images/stackoverflow/1.webp) 50% no-repeat;
     background-size: cover;
 }
 
 .image2 {
-    background: url(../images/stackoverflow/2.webp) 50% no-repeat;
+    background: url(../assets/images/stackoverflow/2.webp) 50% no-repeat;
     background-size: cover;
 }
 
 .image3 {
-    background: url(../images/stackoverflow/3.webp) 50% no-repeat;
+    background: url(../assets/images/stackoverflow/3.webp) 50% no-repeat;
     background-size: cover;
 }
 
 .image4 {
-    background: url(../images/stackoverflow/4.webp) 50% no-repeat;
+    background: url(../assets/images/stackoverflow/4.webp) 50% no-repeat;
     background-size: cover;
 }
 
 .image5 {
-    background: url(../images/stackoverflow/5.webp) 50% no-repeat;
+    background: url(../assets/images/stackoverflow/5.webp) 50% no-repeat;
     background-size: cover;
 }
 
 .image6 {
-    background: url(../images/stackoverflow/6.webp) 50% no-repeat;
+    background: url(../assets/images/stackoverflow/6.webp) 50% no-repeat;
     background-size: cover;
 }
 
 .image7 {
-    background: url(../images/stackoverflow/7.webp) 50% no-repeat;
+    background: url(../assets/images/stackoverflow/7.webp) 50% no-repeat;
     background-size: cover;
 }
 
 .image8 {
-    background: url(../images/stackoverflow/8.webp) 50% no-repeat;
+    background: url(../assets/images/stackoverflow/8.webp) 50% no-repeat;
     background-size: cover;
 }
 
 .image9 {
-    background: url(../images/stackoverflow/9.webp) 50% no-repeat;
+    background: url(../assets/images/stackoverflow/9.webp) 50% no-repeat;
     background-size: cover;
 }
 
 .image10 {
-    background: url(../images/stackoverflow/10.webp) 50% no-repeat;
+    background: url(../assets/images/stackoverflow/10.webp) 50% no-repeat;
     background-size: cover;
 }
 
 .image11 {
-    background: url(../images/blogapp/1.webp) 50% no-repeat;
+    background: url(../assets/images/blogapp/1.webp) 50% no-repeat;
     background-size: cover;
 }
 
 .image12 {
-    background: url(../images/blogapp/2.webp) 50% no-repeat;
+    background: url(../assets/images/blogapp/2.webp) 50% no-repeat;
     background-size: cover;
 }
 
 .image13 {
-    background: url(../images/blogapp/3.webp) 50% no-repeat;
+    background: url(../assets/images/blogapp/3.webp) 50% no-repeat;
     background-size: cover;
 }
 
 .image14 {
-    background: url(../images/blogapp/4.webp) 50% no-repeat;
+    background: url(../assets/images/blogapp/4.webp) 50% no-repeat;
     background-size: cover;
 }
 
 .image15 {
-    background: url(../images/blogapp/5.webp) 50% no-repeat;
+    background: url(../assets/images/blogapp/5.webp) 50% no-repeat;
     background-size: cover;
 }
 
 .image16 {
-    background: url(../images/blogapp/6.webp) 50% no-repeat;
+    background: url(../assets/images/blogapp/6.webp) 50% no-repeat;
     background-size: cover;
 }
 
 .image21 {
-    background: url(../images/moviesurfer/1.webp) 50% no-repeat;
+    background: url(../assets/images/moviesurfer/1.webp) 50% no-repeat;
     background-size: cover;
 }
 
 .image22 {
-    background: url(../images/moviesurfer/2.webp) 50% no-repeat;
+    background: url(../assets/images/moviesurfer/2.webp) 50% no-repeat;
     background-size: cover;
 }
 
 .image23 {
-    background: url(../images/moviesurfer/3.webp) 50% no-repeat;
+    background: url(../assets/images/moviesurfer/3.webp) 50% no-repeat;
     background-size: cover;
 }
 
 .image24 {
-    background: url(../images/moviesurfer/4.webp) 50% no-repeat;
+    background: url(../assets/images/moviesurfer/4.webp) 50% no-repeat;
     background-size: cover;
 }
 
 .image25 {
-    background: url(../images/moviesurfer/5.webp) 50% no-repeat;
+    background: url(../assets/images/moviesurfer/5.webp) 50% no-repeat;
     background-size: cover;
 }
 
 .image26 {
-    background: url(../images/moviesurfer/6.webp) 50% no-repeat;
+    background: url(../assets/images/moviesurfer/6.webp) 50% no-repeat;
     background-size: cover;
 }
 
 .image31 {
-    background: url(../images/crown/1.webp) 50% no-repeat;
+    background: url(../assets/images/crown/1.webp) 50% no-repeat;
     background-size: cover;
 }
 
 .image32 {
-    background: url(../images/crown/2.webp) 50% no-repeat;
+    background: url(../assets/images/crown/2.webp) 50% no-repeat;
     background-size: cover;
 }
 
 .image33 {
-    background: url(../images/crown/3.webp) 50% no-repeat;
+    background: url(../assets/images/crown/3.webp) 50% no-repeat;
     background-size: cover;
 }
 
 .image34 {
-    background: url(../images/crown/4.webp) 50% no-repeat;
+    background: url(../assets/images/crown/4.webp) 50% no-repeat;
     background-size: cover;
 }
 
 .image35 {
-    background: url(../images/crown/5.webp) 50% no-repeat;
+    background: url(../assets/images/crown/5.webp) 50% no-repeat;
     background-size: cover;
 }
 
 .image36 {
-    background: url(../images/crown/6.webp) 50% no-repeat;
+    background: url(../assets/images/crown/6.webp) 50% no-repeat;
     background-size: cover;
 }
 
 .image41 {
-    background: url(../images/yelpcamp/1.webp) 50% no-repeat;
+    background: url(../assets/images/yelpcamp/1.webp) 50% no-repeat;
     background-size: cover;
 }
 
 .image42 {
-    background: url(../images/yelpcamp/2.webp) 50% no-repeat;
+    background: url(../assets/images/yelpcamp/2.webp) 50% no-repeat;
     background-size: cover;
 }
 
 .image43 {
-    background: url(../images/yelpcamp/3.webp) 50% no-repeat;
+    background: url(../assets/images/yelpcamp/3.webp) 50% no-repeat;
     background-size: cover;
 }
 
 .image44 {
-    background: url(../images/yelpcamp/4.webp) 50% no-repeat;
+    background: url(../assets/images/yelpcamp/4.webp) 50% no-repeat;
     background-size: cover;
 }
 
 .image45 {
-    background: url(../images/yelpcamp/5.webp) 50% no-repeat;
+    background: url(../assets/images/yelpcamp/5.webp) 50% no-repeat;
     background-size: cover;
 }
 
 .image46 {
-    background: url(../images/yelpcamp/6.webp) 50% no-repeat;
+    background: url(../assets/images/yelpcamp/6.webp) 50% no-repeat;
     background-size: cover;
 }
 
 .image51 {
-    background: url(../images/weather/1.webp) 50% no-repeat;
+    background: url(../assets/images/weather/1.webp) 50% no-repeat;
     background-size: cover;
 }
 
 .image52 {
-    background: url(../images/weather/2.webp) 50% no-repeat;
+    background: url(../assets/images/weather/2.webp) 50% no-repeat;
     background-size: cover;
 }
 
