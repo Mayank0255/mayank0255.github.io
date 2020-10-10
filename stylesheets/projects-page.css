@@ -68,7 +68,7 @@ body {
     position: absolute;
     top: 0;
     right: 0;
-    height: 100vh;
+    height: 101vh;
     background-color: #f7f6f5;
     opacity: 0.03;
     width: 50%;
@@ -76,7 +76,7 @@ body {
 }
 
 .page {
-    height: 100vh;
+    height: 101vh;
     width: 100%;
 }
 
@@ -182,7 +182,6 @@ body {
 
 .projects-mobile-down1 > img {
     width: 63%;
-    border: 2px solid #ff3e55;
     border-radius: 3px;
 }
 
@@ -450,153 +449,118 @@ header .displayNone {
     background-size: cover;
 }
 
-.image7 {
-    background: url(../assets/images/stackoverflow/7.webp) 50% no-repeat;
-    background-size: cover;
-}
-
-.image8 {
-    background: url(../assets/images/stackoverflow/8.webp) 50% no-repeat;
-    background-size: cover;
-}
-
-.image9 {
-    background: url(../assets/images/stackoverflow/9.webp) 50% no-repeat;
-    background-size: cover;
-}
-
-.image10 {
-    background: url(../assets/images/stackoverflow/10.webp) 50% no-repeat;
-    background-size: cover;
-}
-
 .image11 {
-    background: url(../assets/images/blogapp/1.webp) 50% no-repeat;
+    background: url(../assets/images/resume-bot/1.webp) 50% no-repeat;
     background-size: cover;
 }
 
 .image12 {
-    background: url(../assets/images/blogapp/2.webp) 50% no-repeat;
+    background: url(../assets/images/resume-bot/2.webp) 50% no-repeat;
     background-size: cover;
 }
 
 .image13 {
-    background: url(../assets/images/blogapp/3.webp) 50% no-repeat;
-    background-size: cover;
-}
-
-.image14 {
-    background: url(../assets/images/blogapp/4.webp) 50% no-repeat;
-    background-size: cover;
-}
-
-.image15 {
-    background: url(../assets/images/blogapp/5.webp) 50% no-repeat;
-    background-size: cover;
-}
-
-.image16 {
-    background: url(../assets/images/blogapp/6.webp) 50% no-repeat;
+    background: url(../assets/images/resume-bot/3.webp) 50% no-repeat;
     background-size: cover;
 }
 
 .image21 {
-    background: url(../assets/images/moviesurfer/1.webp) 50% no-repeat;
+    background: url(../assets/images/sd-times/1.webp) 50% no-repeat;
     background-size: cover;
 }
 
 .image22 {
-    background: url(../assets/images/moviesurfer/2.webp) 50% no-repeat;
+    background: url(../assets/images/sd-times/2.webp) 50% no-repeat;
     background-size: cover;
 }
 
 .image23 {
-    background: url(../assets/images/moviesurfer/3.webp) 50% no-repeat;
+    background: url(../assets/images/sd-times/3.webp) 50% no-repeat;
     background-size: cover;
 }
 
 .image24 {
-    background: url(../assets/images/moviesurfer/4.webp) 50% no-repeat;
-    background-size: cover;
-}
-
-.image25 {
-    background: url(../assets/images/moviesurfer/5.webp) 50% no-repeat;
-    background-size: cover;
-}
-
-.image26 {
-    background: url(../assets/images/moviesurfer/6.webp) 50% no-repeat;
+    background: url(../assets/images/sd-times/4.webp) 50% no-repeat;
     background-size: cover;
 }
 
 .image31 {
-    background: url(../assets/images/crown/1.webp) 50% no-repeat;
+    background: url(../assets/images/space-invaders/1.webp) 50% no-repeat;
     background-size: cover;
 }
 
 .image32 {
-    background: url(../assets/images/crown/2.webp) 50% no-repeat;
+    background: url(../assets/images/space-invaders/2.webp) 50% no-repeat;
     background-size: cover;
 }
 
 .image33 {
-    background: url(../assets/images/crown/3.webp) 50% no-repeat;
+    background: url(../assets/images/space-invaders/3.webp) 50% no-repeat;
     background-size: cover;
 }
 
 .image34 {
-    background: url(../assets/images/crown/4.webp) 50% no-repeat;
-    background-size: cover;
-}
-
-.image35 {
-    background: url(../assets/images/crown/5.webp) 50% no-repeat;
-    background-size: cover;
-}
-
-.image36 {
-    background: url(../assets/images/crown/6.webp) 50% no-repeat;
+    background: url(../assets/images/space-invaders/4.webp) 50% no-repeat;
     background-size: cover;
 }
 
 .image41 {
-    background: url(../assets/images/yelpcamp/1.webp) 50% no-repeat;
+    background: url(../assets/images/blog-site/1.webp) 50% no-repeat;
     background-size: cover;
 }
 
 .image42 {
-    background: url(../assets/images/yelpcamp/2.webp) 50% no-repeat;
+    background: url(../assets/images/blog-site/2.webp) 50% no-repeat;
     background-size: cover;
 }
 
 .image43 {
-    background: url(../assets/images/yelpcamp/3.webp) 50% no-repeat;
+    background: url(../assets/images/blog-site/3.webp) 50% no-repeat;
     background-size: cover;
 }
 
 .image44 {
-    background: url(../assets/images/yelpcamp/4.webp) 50% no-repeat;
+    background: url(../assets/images/blog-site/4.webp) 50% no-repeat;
     background-size: cover;
 }
 
 .image45 {
-    background: url(../assets/images/yelpcamp/5.webp) 50% no-repeat;
+    background: url(../assets/images/blog-site/5.webp) 50% no-repeat;
     background-size: cover;
 }
 
 .image46 {
-    background: url(../assets/images/yelpcamp/6.webp) 50% no-repeat;
+    background: url(../assets/images/blog-site/6.webp) 50% no-repeat;
     background-size: cover;
 }
 
 .image51 {
-    background: url(../assets/images/weather/1.webp) 50% no-repeat;
+    background: url(../assets/images/moviesurfer/1.webp) 50% no-repeat;
     background-size: cover;
 }
 
 .image52 {
-    background: url(../assets/images/weather/2.webp) 50% no-repeat;
+    background: url(../assets/images/moviesurfer/2.webp) 50% no-repeat;
+    background-size: cover;
+}
+
+.image53 {
+    background: url(../assets/images/moviesurfer/3.webp) 50% no-repeat;
+    background-size: cover;
+}
+
+.image54 {
+    background: url(../assets/images/moviesurfer/4.webp) 50% no-repeat;
+    background-size: cover;
+}
+
+.image55 {
+    background: url(../assets/images/moviesurfer/5.webp) 50% no-repeat;
+    background-size: cover;
+}
+
+.image56 {
+    background: url(../assets/images/moviesurfer/6.webp) 50% no-repeat;
     background-size: cover;
 }
 
