@@ -172,12 +172,12 @@
 }
 
 .horizontal-scrolling:first-child .projects-item:nth-child(3) .project-content>.project-card {
-    background: url("../assets/images/space-invaders/landing.webp") 50% no-repeat;
+    background: url("../assets/images/sd-times/landing.webp") 50% no-repeat;
     background-size: cover
 }
 
 .horizontal-scrolling:nth-child(2) .projects-item:first-child .project-content>.project-card {
-    background: url("../assets/images/sd-times/landing.webp") 50% no-repeat;
+    background: url("../assets/images/space-invaders/landing.webp") 50% no-repeat;
     background-size: cover
 }
 
