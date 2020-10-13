@@ -108,6 +108,7 @@ body {
 }
 
 .projects-left {
+    height: 48%;
     padding-top: 129px;
     padding-left: 35px;
 }
@@ -160,6 +161,11 @@ body {
     background-position: 0 95%;
 }
 
+.mobile-image {
+    height: 37%;
+    padding-top: 16px;
+}
+
 .projects-mobile-down2 {
     display: none;
     width: 100%;
@@ -168,7 +174,7 @@ body {
 }
 
 .projects-mobile-down2 > img {
-    width: 63%;
+    width: 72%;
 }
 
 .projects-mobile-down1 {
@@ -180,6 +186,7 @@ body {
 
 .projects-mobile-down1 > img {
     width: 63%;
+    max-width: 475px;
 }
 
 .lines {
@@ -867,40 +874,11 @@ header .displayNone {
     }
 }
 
-.scrollDown {
-    font-family: futuraLight;
-    position: fixed;
-    bottom: 80px;
-    left: 40px;
-    line-height: 1;
-    letter-spacing: 0.3em;
-    -webkit-writing-mode: vertical-rl;
-    -ms-writing-mode: tb-rl;
-    writing-mode: vertical-rl;
-    color: #fff;
-    z-index: 0;
-    word-wrap: break-word;
-    white-space: normal;
-    font-size: 14px;
-    transition-duration: 0.7s;
-    transform: translateY(0);
-}
-
-.scrollIndex {
-    z-index: -1;
-}
-
-.scrollDown:after {
-    content: "";
-    width: 3px;
-    height: 64px;
-    background: #fff;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: auto;
-    bottom: -94px;
-    box-sizing: border-box;
+.mouse_container {
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    position: relative;
 }
 
 @media screen and (max-width: 700px) {
@@ -945,18 +923,8 @@ header .displayNone {
         font-size: 5em;
     }
 
-    .scrollDown {
-        right: 40px;
-        left: auto;
-        bottom: 70px;
-    }
-
     .projects-headline > h1 {
         font-size: 80px;
-    }
-
-    .projects-mobile-down1 {
-        margin-top: 15px;
     }
 
     .projects-info {
@@ -964,15 +932,8 @@ header .displayNone {
     }
 
     .projects-mobile-down1 > img {
-        width: 66%;
-    }
-
-    .scrollDown span {
-        font-size: 13px;
-    }
-
-    .scrollDown:after {
-        bottom: -82px;
+        width: 72%;
+        max-width: 375px;
     }
 
     .project-one .headline {
@@ -1033,23 +994,8 @@ header .displayNone {
         z-index: 1;
     }
 
-    .scrollDown {
-        right: 35px;
-        font-size: 13px;
-        bottom: 52px;
-    }
-
-    .scrollDown:after {
-        height: 56px;
-        bottom: -68px;
-    }
-
     .projects-headline > h1 {
         font-size: 66px;
-    }
-
-    .projects-mobile-down1 > img {
-        width: 70%;
     }
 
     .heading-num {
@@ -1148,6 +1094,10 @@ header .displayNone {
         font-size: 56px;
     }
 
+    .mobile-image {
+        padding-top: 24px;
+    }
+
     .projects-mobile-down1 {
         display: none;
     }
@@ -1202,7 +1152,7 @@ header .displayNone {
     }
 
     .projects-mobile-down2 > img {
-        width: 66%;
+        width: 72%;
     }
 }
 
@@ -1276,5 +1226,76 @@ header .displayNone {
 
     .projects-info {
         margin-bottom: 35px;
+    }
+}
+
+.container {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.chevron {
+    position: absolute;
+    width: 28px;
+    height: 8px;
+    opacity: 0;
+    transform: scale3d(0.5, 0.5, 0.5);
+    animation: move 3s ease-out infinite;
+}
+
+.chevron:first-child {
+    animation: move 3s ease-out 1s infinite;
+}
+
+.chevron:nth-child(2) {
+    animation: move 3s ease-out 2s infinite;
+}
+
+.chevron:before,
+.chevron:after {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 51%;
+    background: #ff4d5a;
+}
+
+.chevron:before {
+    left: 0;
+    transform: skew(0deg, 30deg);
+}
+
+.chevron:after {
+    right: 0;
+    width: 50%;
+    transform: skew(0deg, -30deg);
+}
+
+@keyframes move {
+    25% {
+        opacity: 1;
+
+    }
+    33% {
+        opacity: 1;
+        transform: translateY(30px);
+    }
+    67% {
+        opacity: 1;
+        transform: translateY(40px);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
+    }
+}
+
+@keyframes pulse {
+    to {
+        opacity: 1;
     }
 }
