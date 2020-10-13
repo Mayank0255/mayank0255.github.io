@@ -10,6 +10,11 @@
     margin-top: 45px;
     position: absolute;
     z-index: 1;
+    width: 54%;
+}
+
+.contact-brief {
+    width: 95%;
 }
 
 .contact-content,
@@ -61,16 +66,16 @@
     margin-bottom: 20px;
 }
 
+.visible {
+    display: none;
+}
+
 .contact-tab > .contact-label {
     margin-right: 60px;
 }
 
 .contact-tab:first-child > .contact-label {
     margin-right: 68px;
-}
-
-.second-label {
-    display: none;
 }
 
 .contact-text {
@@ -190,6 +195,46 @@ textarea:focus {
     border: 1.5px solid;
 }
 
+.contact-brief {
+    font-family: futuraLight, serif;
+    font-size: 18px;
+}
+
+
+
+.contact-panel {
+    background-color: #5b253a;
+    padding: 12px 20px;
+    border-radius: 6px;
+    display: flex;
+    box-shadow: 6px 10px 5px 0 rgba(0, 0, 0, .1);
+    color: #ff404d !important;
+    margin-bottom: 12px;
+}
+
+.contact-panel:hover {
+    background-color: #62283e;
+}
+
+.contact-panel:nth-child(1) {
+    width: 64%;
+}
+
+.contact-panel:nth-child(2) {
+    width: 64%;
+}
+
+.contact-panel:nth-child(3) {
+    width: 39.5%;
+}
+
+.contact-icon {
+    display: flex;
+    align-items: center;
+    padding-right: 8px;
+    margin-right: 8px;
+}
+
 @media screen and (max-width: 1300px) {
     .contact {
         margin-left: 10%;
@@ -279,6 +324,12 @@ textarea:focus {
     }
 }
 
+@media screen and (max-width: 1050px) {
+    .contact-left {
+        width: 57%;
+    }
+}
+
 @media screen and (max-width: 1000px) {
     .contact {
         margin-left: 4%;
@@ -343,6 +394,12 @@ textarea:focus {
     }
 }
 
+@media screen and (max-width: 950px) {
+    .contact-left {
+        width: 63%;
+    }
+}
+
 @media screen and (max-width: 900px) {
     .contact-left {
         margin-top: -11px;
@@ -386,6 +443,15 @@ textarea:focus {
         width: 80%;
     }
 
+    .hidden {
+        display: none;
+    }
+
+    .visible {
+        display: flex;
+        flex-direction: column;
+    }
+
     .contact-tab:first-child > .contact-text > p:first-child {
         margin-top: 4px;
         margin-bottom: 22px;
@@ -393,6 +459,10 @@ textarea:focus {
 
     .contact-headline > h1 {
         font-size: 96px;
+    }
+
+    .contact-brief {
+        width: 100%;
     }
 }
 
@@ -416,6 +486,12 @@ textarea:focus {
     }
 }
 
+@media screen and (max-width: 730px) {
+    .contact-info {
+        font-size: 18px;
+    }
+}
+
 @media screen and (max-width: 700px) {
     .lines {
         margin-bottom: 32px;
@@ -424,6 +500,10 @@ textarea:focus {
     .contact-left {
         margin-top: 10%;
         width: 90%;
+    }
+
+    .visible {
+        padding-top: 16px;
     }
 }
 
@@ -437,25 +517,17 @@ textarea:focus {
         width: 90%;
     }
 
-    .contact-text {
-        font-size: 17px;
-        letter-spacing: 1.8px;
-    }
-
     .contact-info {
         font-size: 18px;
+        letter-spacing: 2px;
     }
 
     .contact-content {
         margin-top: 8px;
     }
 
-    .contact-tab > .contact-label {
-        margin-right: 25px;
-    }
-
-    .contact-tab:first-child > .contact-label {
-        margin-right: 30px;
+    .contact-panel:nth-child(3) {
+        width: 43%;
     }
 }
 
@@ -468,30 +540,58 @@ textarea:focus {
         font-size: 75px;
     }
 
-    .contact-tab {
-        flex-direction: column;
+    .contact-left {
+        width: 89%;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .contact-panel:nth-child(1) {
+        width: 70%;
     }
 
-    .contact-label {
-        margin-bottom: 7px;
+    .contact-panel:nth-child(2) {
+        width: 69%;
     }
 
-    .second-label {
-        display: block;
+    .contact-panel:nth-child(3) {
+        width: 47%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .contact-panel:nth-child(1) {
+        width: 76%;
     }
 
-    .first-label {
-        display: none;
+    .contact-panel:nth-child(2) {
+        width: 75%;
     }
 
-    .contact-info {
-        font-size: 20px;
+    .contact-panel:nth-child(3) {
+        width: 51%;
     }
 }
 
 @media screen and (max-width: 500px) {
     .contact-headline > h1 {
         font-size: 65px;
+    }
+
+    .contact-left {
+        width: 86%;
+    }
+
+    .contact-panel:nth-child(1) {
+        width: 83%;
+    }
+
+    .contact-panel:nth-child(2) {
+        width: 84%;
+    }
+
+    .contact-panel:nth-child(3) {
+        width: 55%;
     }
 }
 
@@ -515,48 +615,33 @@ textarea:focus {
     }
 
     .contact-info {
-        font-size: 20px;
-        /*margin-top: 5px;*/
+        font-family: futura, serif;
     }
 
-    .contact-tab > .contact-label {
-        margin-right: 22px;
-    }
-
-    .contact-tab:first-child > .contact-label {
-        margin-right: 27px;
-    }
-
-    .contact-text {
-        font-size: 16px;
-        letter-spacing: 1px;
-        font-weight: 500;
-    }
-
-    #email {
-        letter-spacing: 1.5px;
+    .contact-panel:nth-child(1) {
+        width: 84%;
     }
 }
 
 @media screen and (max-width: 450px) {
-    #email {
-        letter-spacing: 1.5px;
-    }
-
-    #email2 {
-        letter-spacing: 0;
-    }
-
     .contact-headline > h1 {
         font-size: 56px;
     }
 
-    .contact-text {
-        font-weight: 600;
+    .contact-panel:nth-child(2) {
+        width: 85%;
     }
 
-    .contact-label {
-        margin-bottom: 9px;
+    .contact-panel:nth-child(3) {
+        width: 62%;
+    }
+
+    .contact-brief {
+         font-size: 17px;
+    }
+
+    .contact-info {
+        font-size: 17px;
     }
 }
 
@@ -565,25 +650,32 @@ textarea:focus {
         font-size: 52px;
     }
 
-    .contact-text {
-        font-size: 15px;
+    .contact-panel:nth-child(2) {
+        letter-spacing: 1px;
     }
 }
 
 @media screen and (max-width: 380px) {
-    .contact-text {
-        letter-spacing: 0;
-    }
-
     .contact-headline > h1 {
         font-size: 52px;
     }
+
+    .contact-panel:nth-child(2) {
+        width: 84%;
+    }
+
+    .contact-panel:nth-child(2) > .contact-icon {
+        margin-right: 6px;
+    }
+
+    .contact-panel:nth-child(3) {
+        width: 65%;
+    }
+
+    .contact-left {
+        padding-left: 31px;
+    }
 }
-
-@media screen and (min-height: 600px) and (orientation: portrait) {
-
-}
-
 
 @media screen and (min-height: 780px) and (orientation: portrait) {
     .contact-info {

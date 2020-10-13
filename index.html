@@ -1073,43 +1073,42 @@
                     </div>
                     <div class='contact-content'>
                         <div class='contact-info'>
-                            <div class='contact-tab'>
-                                <div class='contact-label first-label'>
+                            <p class="contact-brief">
+                                I'm available for development-related work. I am also open to opportunities for Spring 2021 & Summer 2021
+                            </p>
+                            <div class='contact-tab hidden'>
+                                <div class='contact-label'>
                                     Email:
-                                </div>
-                                <div class='contact-label second-label'>
-                                    Email
                                 </div>
                                 <div class='contact-text'>
                                     <p id='email'>
                                         mayank2aggarwal@gmail.com
-                                        <button class="btn clip" data-clipboard-target="#email">
-                                            <i class="far fa-clone"></i>
-                                        </button>
                                     </p>
                                     <p id='email2'>
                                         mayank.189302045@muj.manipal.edu
-                                        <button class="btn clip" data-clipboard-target="#email2">
-                                            <i class="far fa-clone"></i>
-                                        </button>
                                     </p>
                                 </div>
                             </div>
-                            <div class='contact-tab'>
+                            <div class='contact-tab hidden'>
                                 <div class='contact-label first-label'>
                                     Phone:
-                                </div>
-                                <div class='contact-label second-label'>
-                                    Phone
                                 </div>
                                 <div class='contact-text'>
                                     <p id='phone'>
                                         +91 8826063302
-                                        <button class="btn clip" data-clipboard-target='#phone'>
-                                            <i class="far fa-clone"></i>
-                                        </button>
                                     </p>
                                 </div>
+                            </div>
+                            <div class="contact-tab visible">
+                                <a class="contact-panel">
+                                    <i class="fas fa-map-marker-alt contact-icon"></i> I-1102, Parkview City, 122018
+                                </a>
+                                <a href="mailto:mayank2aggarwal@gmail.com" target="_top" class="contact-panel">
+                                    <i class="fas fa-envelope contact-icon"></i> mayank2aggarwal@gmail.com
+                                </a>
+                                <a href="tel:+918826063302" class="contact-panel">
+                                    <i class="fas fa-phone-alt contact-icon"></i> +91 8826063302
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -1186,7 +1185,6 @@
 
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.min.js'></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js"></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js'
         integrity='sha256-2p2tRZlPowp3P/04Pw2rqVCSbhyV/IB7ZEVUglrDS/c=' crossorigin='anonymous'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js'
@@ -1196,26 +1194,6 @@
 <script src='scripts/scrollEffects.js'></script>
 <script src='https://cdn.jsdelivr.net/npm/typed.js@2.0.11'></script>
 <script>
-    $(document).ready(function () {
-
-        var clipboard = new ClipboardJS('.btn');
-
-        clipboard.on('success', function (e) {
-            $(e.trigger).text("Copied");
-            e.clearSelection();
-            setTimeout(function () {
-                $(e.trigger).html(`<i class="far fa-clone"></i>`);
-            }, 2500);
-        });
-
-        clipboard.on('error', function (e) {
-            $(e.trigger).text("Can't in Safari");
-            setTimeout(function () {
-                $(e.trigger).html(`<i class="far fa-clone"></i>`);
-            }, 2500);
-        });
-    });
-
     const typed = new Typed('#typeit-quote', {
         strings: ['Web Developer', 'Tech Enthusiast', 'Programmer'],
         typeSpeed: 50,
