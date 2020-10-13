@@ -80,6 +80,7 @@
 }
 
 .projects-btns>a {
+    font-family: futura, serif;
     display: inline-block;
     font-size: 18px;
     color: var(--white-01);
@@ -89,7 +90,7 @@
     padding: 16px 28px;
     border-radius: 50px;
     letter-spacing: .1em;
-    box-shadow: 5px 10px 4px rgba(0, 0, 0, .1)
+    box-shadow: 5px 10px 4px rgba(0, 0, 0, .1);
 }
 
 .projects-right {
