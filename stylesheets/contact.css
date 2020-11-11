@@ -651,8 +651,17 @@ textarea:focus {
 }
 
 @media screen and (max-width: 400px) {
+    .visible {
+        font-family: monospace !important;
+    }
+
     .contact-headline > h1 {
         font-size: 52px;
+    }
+
+    .contact-panel {
+        padding-left: 16px;
+        padding-right: 24px;
     }
 
     .contact-panel:nth-child(1) {
@@ -660,7 +669,6 @@ textarea:focus {
     }
 
     .contact-panel:nth-child(2) {
-        font-family: 'Roboto Condensed', sans-serif;
         width: 86%;
     }
 
