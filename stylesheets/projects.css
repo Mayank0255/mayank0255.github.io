@@ -80,7 +80,7 @@
 }
 
 .projects-btns>a {
-    font-family: futura, serif;
+    font-family: futuraLight, monospace;
     display: inline-block;
     font-size: 18px;
     color: var(--white-01);
@@ -221,7 +221,7 @@
 }
 
 .project-text>span {
-    font-family: futura, serif;
+    font-family: futuraBook, serif;
     font-size: 15px;
     color: var(--white-04)
 }
@@ -243,7 +243,7 @@
     z-index: 2;
     background-color: transparent;
     cursor: pointer;
-    font-family: futura, serif
+    font-family: futuraBook, serif
 }
 
 .project-button:hover {
