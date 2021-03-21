@@ -788,11 +788,11 @@ header .displayNone {
     position: relative;
     text-transform: uppercase;
     font-weight: 800;
-    letter-spacing: 2px;
-    font-size: 6em;
+    letter-spacing: 8px;
+    font-size: 70px;
     padding: 0 10px;
-    line-height: 1.2em;
-    font-family: proxima_novaextrabold;
+    line-height: 1.6;
+    font-family: futuraRegular, monospace;
 }
 
 #menu-links li a,
@@ -899,7 +899,7 @@ header .displayNone {
 
 @media screen and (max-width: 700px) {
     #menu-links li a {
-        font-size: 5.5em;
+        font-size: 64px;
     }
 
     .lines {
@@ -936,7 +936,7 @@ header .displayNone {
 
 @media screen and (max-width: 580px) {
     #menu-links li a {
-        font-size: 5em;
+        font-size: 56px;
     }
 
     .projects-headline > h1 {
@@ -983,8 +983,8 @@ header .displayNone {
 
 @media screen and (max-width: 520px) {
     #menu-links li a {
-        font-size: 4.8em;
-        letter-spacing: 1px;
+        font-size: 52px;
+        letter-spacing: 8px;
     }
 }
 
@@ -1072,8 +1072,8 @@ header .displayNone {
 
 @media screen and (max-width: 465px) {
     #menu-links li a {
-        font-size: 4.5em;
-        line-height: 1.3;
+        font-size: 50px;
+        line-height: 1.6;
     }
 
     .back-arrow {
@@ -1137,8 +1137,8 @@ header .displayNone {
 
 @media screen and (max-width: 435px) {
     #menu-links li a {
-        font-size: 4em;
-        letter-spacing: 0;
+        font-size: 45px;
+        letter-spacing: 8px;
     }
 
     .project-one .head {
@@ -1174,7 +1174,7 @@ header .displayNone {
 
 @media screen and (max-width: 395px) {
     #menu-links li a {
-        font-size: 3.7em;
+        font-size: 42px;
     }
 
     .headline {
@@ -1213,7 +1213,7 @@ header .displayNone {
 
 @media screen and (max-width: 385px) {
     #menu-links li a {
-        font-size: 3.7em;
+        font-size: 42px;
     }
 
     .projects-headline > h1 {
@@ -1223,7 +1223,7 @@ header .displayNone {
 
 @media screen and (max-width: 360px) {
     #menu-links li a {
-        font-size: 3.4em;
+        font-size: 42px;
     }
 }
 
