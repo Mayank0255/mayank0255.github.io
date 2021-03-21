@@ -387,7 +387,7 @@ header {
 }
 
 .scrollDown {
-    font-family: futuraLight;
+    font-family: futuraLight, monospace;
     position: fixed;
     bottom: 80px;
     left: 40px;
@@ -576,11 +576,6 @@ section {
 }
 
 @media screen and (max-width: 900px) {
-    .scrollDown {
-        right: 40px;
-        left: auto;
-    }
-
     .navbrand {
         margin-left: 6px;
     }
@@ -598,7 +593,6 @@ section {
 
 @media screen and (max-width: 700px) {
     .scrollDown {
-        right: 35px;
         font-size: 13px;
         bottom: 52px;
     }
