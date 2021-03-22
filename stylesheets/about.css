@@ -1,13 +1,14 @@
 .about {
     display: flex;
     flex-direction: row;
+    align-items: center;
     height: 100%;
-    padding: 90px 0 0;
     margin-left: 11%;
 }
 
 .about-left {
     margin-top: 55px;
+    height: 580px;
     width: 600px;
     position: absolute;
     z-index: 1;
@@ -357,6 +358,7 @@
         margin-top: -48px;
         z-index: 1;
         position: static;
+        height: auto;
     }
 
     .about-content,

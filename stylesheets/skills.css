@@ -2,15 +2,16 @@
     display: flex;
     flex-direction: row;
     height: 100%;
-    padding: 100px 0 0;
-    margin-left: 11%
+    margin-left: 11%;
+    align-items: center;
 }
 
 .skills-left {
     margin-top: 45px;
     width: 400px;
     position: absolute;
-    z-index: 1
+    z-index: 1;
+    height: 580px;
 }
 
 .skills-content,
@@ -96,7 +97,7 @@
     position: absolute;
     left: 46%;
     z-index: 0;
-    margin-top: 55px
+    margin-bottom: 55px
 }
 
 .skills-up {
@@ -109,7 +110,7 @@
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: center
+    justify-content: center;
 }
 
 .up-grid-layout {
@@ -280,7 +281,6 @@
     }
     .skills {
         flex-direction: column;
-        padding: 87px 0 0;
         margin: 0
     }
     .skills-left {
@@ -288,10 +288,12 @@
         position: static;
         margin-top: 0;
         padding-left: 42px;
-        z-index: 0
+        z-index: 0;
+        height: auto;
     }
     .skills-up {
-        display: flex
+        display: flex;
+        margin-top: 124px;
     }
     .skills-headline>h1 {
         font-size: 70px
@@ -305,9 +307,6 @@
 @media screen and (max-width:700px) {
     .skills-left {
         margin-top: 10px
-    }
-    .skills {
-        padding: 93px 0 0
     }
 }
 
@@ -336,9 +335,6 @@
     .skills-info {
         font-size: 18px
     }
-    .skills {
-        padding: 105px 0 0
-    }
     .skills-left {
         margin-top: 0
     }
@@ -354,9 +350,6 @@
     }
     .up-grid-layout {
         grid-gap: 16px
-    }
-    .skills {
-        padding: 113px 0 0
     }
     .skills-left {
         margin-top: -8px;
@@ -396,9 +389,6 @@
 }
 
 @media screen and (min-height:630px) and (orientation:portrait) {
-    .skills {
-        padding: 103px 0 0
-    }
     .skills-headline>h1 {
         font-size: 58px
     }
@@ -410,16 +400,7 @@
     }
 }
 
-@media screen and (min-height:700px) and (orientation:portrait) {
-    .skills {
-        padding: 118px 0 0
-    }
-}
-
 @media screen and (min-height:740px) and (orientation:portrait) {
-    .skills {
-        padding: 115px 0 0
-    }
     .skills-left {
         margin-top: -15px
     }
