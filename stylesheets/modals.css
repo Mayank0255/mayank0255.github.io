@@ -17,7 +17,7 @@
     max-width: 700px;
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, .2), 0 7px 20px 0 rgba(0, 0, 0, .17);
     animation-name: modalopen;
-    animation-duration: 1s;
+    animation-duration: 0.4s;
     cursor: auto;
     position: relative;
     left: 13%;
@@ -26,6 +26,19 @@
     background-color: var(--white-01);
     border-bottom-left-radius: 2px;
     border-bottom-right-radius: 2px
+}
+
+@keyframes modalopen {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+        top: -100px;
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+        top: 1px;
+    }
 }
 
 .modal-upper {
@@ -147,15 +160,6 @@
 .closing:hover {
     opacity: 1;
     color: var(--primary-color)
-}
-
-@keyframes modalopen {
-    0% {
-        opacity: 0
-    }
-    to {
-        opacity: 1
-    }
 }
 
 .image-section>img {
