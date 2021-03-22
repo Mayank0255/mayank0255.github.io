@@ -109,7 +109,7 @@
 
 .modal-details .stack-section {
     text-align: center;
-    font-family: futuralight, serif;
+    font-family: futuraBook, serif;
     padding: 4px 0;
     color: var(--primary-color)
 }
@@ -117,9 +117,8 @@
 .divider {
     padding: .9px;
     margin: 7px 39px;
-    background-color: rgba(255, 62, 85, .6);
-    border: 0;
-    border-radius: 50%
+    background-color: rgb(255, 62, 85);
+    border-width: inherit;
 }
 
 .foot {
