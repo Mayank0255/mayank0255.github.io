@@ -213,6 +213,9 @@
     .skills-info {
         width: 80%
     }
+    .skills-tab {
+        width: 80%;
+    }
     .skills-headline>h1 {
         font-size: 115px
     }
@@ -249,6 +252,9 @@
     .skills-info {
         font-size: 19px;
         letter-spacing: 2px
+    }
+    .skills-tab {
+        width: 72%;
     }
     .skills-right {
         left: 47%
