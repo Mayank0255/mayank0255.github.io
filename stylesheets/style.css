@@ -48,6 +48,14 @@
 }
 
 @font-face {
+    font-family: futuraConRegular;
+    src: url(../assets/fonts/FuturaLT-Condensed.woff2) format("woff2"), url(../assets/fonts/FuturaLT-Condensed.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
     font-family: futuraRegular;
     src: url(../assets/fonts/FuturaLT-Book.woff2) format("woff2"), url(../assets/fonts/FuturaLT-Book.woff) format("woff");
     font-weight: 400;

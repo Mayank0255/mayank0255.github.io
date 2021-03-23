@@ -109,7 +109,6 @@
     flex-direction: column;
     position: absolute;
     left: 50%;
-    z-index: -1;
 }
 
 .about-image > img {
@@ -117,15 +116,17 @@
 }
 
 .about-tabs {
-    display: flex;
-    justify-content: center;
     height: 35%;
+    width: 100%;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-gap: 4px;
 }
 
 .each-tab {
     flex-direction: column;
-    margin: 0 10px;
-    width: 23%;
+    width: 100%;
 }
 
 .each-tab,
@@ -177,7 +178,7 @@
 }
 
 .about-label {
-    font-family: futuraBook, serif;
+    font-family: futuraConRegular, serif;
     margin-top: 7px;
     font-size: 18px;
 }
@@ -228,10 +229,6 @@
         margin-top: 70px;
     }
 
-    .each-tab {
-        width: 27%;
-    }
-
     .hexagon {
         width: 40px;
         height: 70px;
@@ -268,10 +265,6 @@
 
     .about-label-details {
         display: none;
-    }
-
-    .each-tab {
-        margin: 0 11px;
     }
 
     .about-image > img {
