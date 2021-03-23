@@ -2,17 +2,17 @@
     display: flex;
     flex-direction: row;
     height: 100%;
-    padding: 100px 0 0;
-    margin-left: 11%
+    margin-left: 11%;
+    align-items: center;
 }
 
 .projects-left {
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
+    margin-top: 45px;
     width: 700px;
     position: absolute;
-    z-index: 1
+    height: 580px;
 }
 
 .projects-mobile-down1,
@@ -80,13 +80,12 @@
 }
 
 .projects-btns>a {
-    font-family: futura, serif;
+    font-family: futuraBook, monospace;
     display: inline-block;
     font-size: 18px;
     color: var(--white-01);
     background-color: var(--primary-color);
     line-height: 1;
-    font-weight: 700;
     padding: 16px 28px;
     border-radius: 50px;
     letter-spacing: .1em;
@@ -111,7 +110,6 @@
     width: 100%;
     height: 100%;
     align-items: center;
-    padding-top: 50px;
     padding-right: 5px
 }
 
@@ -221,7 +219,7 @@
 }
 
 .project-text>span {
-    font-family: futura, serif;
+    font-family: futuraBook, serif;
     font-size: 15px;
     color: var(--white-04)
 }
@@ -243,7 +241,7 @@
     z-index: 2;
     background-color: transparent;
     cursor: pointer;
-    font-family: futura, serif
+    font-family: futuraBook, serif
 }
 
 .project-button:hover {
@@ -270,15 +268,28 @@
     opacity: 1
 }
 
+.lines-2 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+}
+
+.lines-2 > span {
+    margin-bottom: 14px;
+    width: 88px;
+    height: 4px;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+}
+
+.lines-2 > .bottom-line-2 {
+    margin-left: 53px;
+    margin-bottom: 0;
+}
+
 @media screen and (max-width:1300px) {
     .projects-page {
         margin-left: 9%
-    }
-    .projects-left {
-        margin-top: 20px
-    }
-    .projects-area {
-        padding-top: 60px
     }
     .rest-left {
         margin-top: 6px
@@ -301,9 +312,6 @@
     }
     .projects-layout {
         grid-template-rows: minmax(200px, 220px) minmax(200px, 220px)
-    }
-    .projects-area {
-        padding-top: 75px
     }
     .projects-right {
         left: 38%
@@ -342,9 +350,6 @@
     .projects-info {
         font-size: 18px
     }
-    .projects-left {
-        margin-top: 30px
-    }
     .projects-layout {
         grid-template-rows: minmax(190px, 200px) minmax(190px, 200px)
     }
@@ -377,8 +382,9 @@
 @media screen and (max-width:800px) {
     .projects-page {
         flex-direction: column;
-        padding: 70px 0 0;
-        margin-left: 0
+        margin-left: 0;
+        align-items: normal;
+        justify-content: center;
     }
     .projects-right {
         display: none
@@ -386,7 +392,8 @@
     .projects-left {
         width: 100%;
         position: static;
-        padding: 27px 0 0 34px
+        padding: 0 0 0 34px;
+        height: auto;
     }
     .projects-mobile-down1 {
         display: flex;
@@ -430,6 +437,9 @@
     .projects-info>p>span:first-child {
         display: inline
     }
+    .projects-head .lines {
+        margin-bottom: 32px;
+    }
 }
 
 @media screen and (max-width:700px) {
@@ -440,6 +450,9 @@
         width: 440px;
         margin-bottom: 10px;
         margin-top: 4px
+    }
+    .projects-head .lines {
+        margin-bottom: 10px;
     }
 }
 
@@ -503,7 +516,7 @@
         margin-top: 10px
     }
     .projects-left {
-        padding: 32px 0 0 34px
+        padding: 0 0 0 34px
     }
     .projects-btns>a {
         font-size: 17px
@@ -536,13 +549,13 @@
 
 @media screen and (min-height:720px) and (orientation:portrait) {
     .projects-left {
-        padding: 40px 0 0 34px
+        padding: 0 0 0 34px
     }
 }
 
 @media screen and (min-height:750px) and (orientation:portrait) {
     .projects-left {
-        padding: 63px 0 0 34px
+        padding: 0 0 0 34px
     }
     .projects-info {
         margin-top: 20px

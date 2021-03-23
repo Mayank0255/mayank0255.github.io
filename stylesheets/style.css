@@ -2,6 +2,7 @@
     --bright-color: #ff4d5a;
     --primary-color: #ff3e55;
     --secondary-color: #ff4d61cf;
+    --primary-mobile-color: #ff576a;
     --white-01: #fff;
     --white-02: #f7f6f5;
     --white-03: hsla(0, 0%, 100%, 0.7);
@@ -33,6 +34,30 @@
 @font-face {
     font-family: proxima_novaextrabold;
     src: url(../assets/fonts/proxima_nova_extrabold-webfont.woff2) format("woff2"), url(../assets/fonts/proxima_nova_extrabold-webfont.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: futuraBook;
+    src: url(../assets/fonts/FuturaLT.woff2) format("woff2"), url(../assets/fonts/FuturaLT.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: futuraConRegular;
+    src: url(../assets/fonts/FuturaLT-Condensed.woff2) format("woff2"), url(../assets/fonts/FuturaLT-Condensed.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: futuraRegular;
+    src: url(../assets/fonts/FuturaLT-Book.woff2) format("woff2"), url(../assets/fonts/FuturaLT-Book.woff) format("woff");
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -152,7 +177,7 @@ header {
 
 .navbrand,
 .navbrand-icon {
-    font-family: proxima_novaextrabold;
+    font-family: proxima_novaextrabold, monospace;
 }
 
 .navbrand-icon {
@@ -318,11 +343,11 @@ header {
     position: relative;
     text-transform: uppercase;
     font-weight: 800;
-    letter-spacing: 2px;
-    font-size: 6em;
+    letter-spacing: 8px;
+    font-size: 70px;
     padding: 0 10px;
-    line-height: 1.2em;
-    font-family: proxima_novaextrabold;
+    line-height: 1.6;
+    font-family: futuraRegular, monospace;
 }
 
 #menu-links li a,
@@ -371,7 +396,7 @@ header {
 }
 
 .scrollDown {
-    font-family: futuraLight;
+    font-family: futuraLight, monospace;
     position: fixed;
     bottom: 80px;
     left: 40px;
@@ -560,11 +585,6 @@ section {
 }
 
 @media screen and (max-width: 900px) {
-    .scrollDown {
-        right: 40px;
-        left: auto;
-    }
-
     .navbrand {
         margin-left: 6px;
     }
@@ -582,7 +602,6 @@ section {
 
 @media screen and (max-width: 700px) {
     .scrollDown {
-        right: 35px;
         font-size: 13px;
         bottom: 52px;
     }
@@ -601,20 +620,20 @@ section {
     }
 
     #menu-links li a {
-        font-size: 5.5em;
+        font-size: 64px;
     }
 }
 
 @media screen and (max-width: 580px) {
     #menu-links li a {
-        font-size: 5em;
+        font-size: 56px;
     }
 }
 
 @media screen and (max-width: 520px) {
     #menu-links li a {
-        font-size: 4.8em;
-        letter-spacing: 1px;
+        font-size: 52px;
+        letter-spacing: 8px;
     }
 }
 
@@ -640,15 +659,15 @@ section {
 
 @media screen and (max-width: 465px) {
     #menu-links li a {
-        font-size: 4.5em;
-        line-height: 1.3;
+        font-size: 50px;
+        line-height: 1.6;
     }
 }
 
 @media screen and (max-width: 435px) {
     #menu-links li a {
-        font-size: 4em;
-        letter-spacing: 0;
+        font-size: 45px;
+        letter-spacing: 8px;
     }
 }
 
@@ -665,13 +684,13 @@ section {
 
 @media screen and (max-width: 385px) {
     #menu-links li a {
-        font-size: 3.7em;
+        font-size: 42px;
     }
 }
 
 @media screen and (max-width: 360px) {
     #menu-links li a {
-        font-size: 3.4em;
+        font-size: 42px;
     }
 }
 

@@ -59,6 +59,10 @@ $(document).ready(function(){
         .setClassToggle("#skillsPage .skills-info","fade-in-info")
         .addTo(e);
     new ScrollMagic
+        .Scene({triggerElement:"#skillsPage",duration:"100%"})
+        .setClassToggle("#skillsPage .skills-tab","fade-in-tab")
+        .addTo(e);
+    new ScrollMagic
         .Scene({triggerElement:"#projectsPage",duration:"100%"})
         .setClassToggle("#projectsPage .projects-info","fade-in-info")
         .addTo(e);

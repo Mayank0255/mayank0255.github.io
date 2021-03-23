@@ -1,13 +1,14 @@
 .about {
     display: flex;
     flex-direction: row;
+    align-items: center;
     height: 100%;
-    padding: 90px 0 0;
     margin-left: 11%;
 }
 
 .about-left {
-    margin-top: 55px;
+    margin-top: 50px;
+    height: 580px;
     width: 600px;
     position: absolute;
     z-index: 1;
@@ -94,12 +95,11 @@
     color: var(--white-01);
     background-color: var(--primary-color);
     line-height: 1;
-    font-weight: 700;
     padding: 16px 28px;
     border-radius: 50px;
     letter-spacing: 0.1em;
     box-shadow: 5px 10px 4px rgba(0, 0, 0, 0.1);
-    font-family: futura, serif;
+    font-family: futuraBook, serif;
 }
 
 .about-right {
@@ -109,7 +109,6 @@
     flex-direction: column;
     position: absolute;
     left: 50%;
-    z-index: -1;
 }
 
 .about-image > img {
@@ -117,15 +116,17 @@
 }
 
 .about-tabs {
-    display: flex;
-    justify-content: center;
     height: 35%;
+    width: 100%;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-gap: 4px;
 }
 
 .each-tab {
     flex-direction: column;
-    margin: 0 10px;
-    width: 23%;
+    width: 100%;
 }
 
 .each-tab,
@@ -177,8 +178,7 @@
 }
 
 .about-label {
-    font-family: futuramedium, serif;
-    font-weight: 500;
+    font-family: futuraConRegular, serif;
     margin-top: 7px;
     font-size: 18px;
 }
@@ -222,16 +222,11 @@
 
 @media screen and (max-width: 1000px) {
     .about {
-        padding: 65px 0 0;
         margin-left: 5%;
     }
 
     .about-left {
         margin-top: 70px;
-    }
-
-    .each-tab {
-        width: 27%;
     }
 
     .hexagon {
@@ -270,10 +265,6 @@
 
     .about-label-details {
         display: none;
-    }
-
-    .each-tab {
-        margin: 0 11px;
     }
 
     .about-image > img {
@@ -331,7 +322,7 @@
     }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
     .about {
         display: flex;
         flex-direction: column-reverse;
@@ -346,7 +337,7 @@
         left: auto;
         display: block;
         z-index: 0;
-        margin-top: -105px;
+        margin-top: -50px;
     }
 
     .about-image > img {
@@ -359,6 +350,7 @@
         margin-top: -48px;
         z-index: 1;
         position: static;
+        height: auto;
     }
 
     .about-content,
@@ -487,20 +479,12 @@
         margin-top: -40px;
     }
 
-    .about-right {
-        margin-top: -110px;
-    }
-
     .about-image > img {
         width: 290px;
     }
 }
 
 @media screen and (min-height: 730px) and (orientation: portrait) {
-    .about-right {
-        margin-top: -104px;
-    }
-
     .about-image > img {
         width: 285px;
     }
@@ -509,10 +493,6 @@
 @media screen and (max-height: 700px) and (orientation: portrait) {
     .about-left {
         margin-top: -57px;
-    }
-
-    .about-right {
-        margin-top: -60px;
     }
 
     .about-image > img {
@@ -526,11 +506,5 @@
     .about-btns > a {
         font-size: 14px;
         padding: 12px 21px;
-    }
-}
-
-@media screen and (max-height: 640px) and (orientation: portrait) {
-    .about-right {
-        margin-top: -80px;
     }
 }
