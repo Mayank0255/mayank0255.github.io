@@ -1,14 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&family=Roboto:wght@400;500;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
-
 .contact {
     display: flex;
     flex-direction: row;
     height: 100%;
-    padding: 100px 0 0;
     margin-left: 11%;
+    align-items: center;
 }
 
 .contact-left {
@@ -16,6 +11,7 @@
     position: absolute;
     z-index: 1;
     width: 54%;
+    height: 580px;
 }
 
 .contact-brief {
@@ -104,7 +100,6 @@
     position: absolute;
     right: -5%;
     z-index: 0;
-    margin-top: 55px;
 }
 
 .contact-form-area,
@@ -260,6 +255,10 @@ textarea:focus {
 }
 
 @media screen and (max-width: 1260px) {
+    .contact-left {
+        margin-top: 70px;
+    }
+
     .contact {
         margin-left: 9%;
     }
@@ -434,7 +433,7 @@ textarea:focus {
     }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 875px) {
     .contact {
         margin-left: 6%;
     }
@@ -674,7 +673,6 @@ textarea:focus {
 
     .contact-info {
         font-size: 15px;
-        font-family: 'Roboto Mono', serif;
     }
 
     .contact-content {
