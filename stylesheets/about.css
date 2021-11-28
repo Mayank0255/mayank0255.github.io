@@ -112,7 +112,9 @@
 }
 
 .about-image > img {
-    width: 400px;
+    width: 375px;
+    padding-bottom: 25px;
+    padding-top: 26px; 
 }
 
 .about-tabs {
@@ -197,7 +199,7 @@
 
 @media screen and (max-width: 1080px) {
     .about-image > img {
-        width: 390px;
+        width: 370px;
         margin-left: 30px;
     }
 
@@ -239,7 +241,7 @@
     }
 
     .about-image > img {
-        width: 382px;
+        width: 368px;
     }
 
     .about-headline > h1 {
@@ -309,7 +311,7 @@
 
 @media screen and (max-width: 825px) {
     .about-image > img {
-        width: 345px;
+        width: 340px;
         margin-left: 0;
     }
 
@@ -341,8 +343,9 @@
     }
 
     .about-image > img {
-        width: 300px;
-        padding: 0;
+        width: 285px;
+        padding-bottom: 30px;
+        padding-top: 20px; 
     }
 
     .about-left {
@@ -405,6 +408,10 @@
         font-size: 17px;
         width: 83%;
     }
+
+    .about-image > img {
+        width: 270px;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -416,8 +423,8 @@
 
 @media screen and (max-width: 450px) {
     .about-image > img {
-        width: 280px;
-        padding: 0;
+        width: 260px;
+        /* padding: 0; */
     }
 
     .about-headline > h1 {
@@ -446,9 +453,16 @@
     }
 }
 
+@media screen and (max-width: 420px) {
+  .about-image > img {
+      width: 250px;
+      /* padding: 0; */
+  }
+}
+
 @media screen and (max-width: 380px) {
     .about-image > img {
-        width: 272px;
+        width: 250px;
     }
 
     .about-headline > h1 {
