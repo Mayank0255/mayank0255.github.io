@@ -1,3 +1,4 @@
+#work-headline,
 #projects-headline,
 .about-headline h1,
 .contact-headline h1,
@@ -15,6 +16,7 @@
     transition: all .35s ease-in
 }
 
+#workPage .work-head .fade-in-headline,
 #projectsPage .projects-head .fade-in-headline,
 .about-head .fade-in-headline,
 .contact-head .fade-in-headline,
@@ -43,6 +45,7 @@
 
 #aboutPage .lines .fade-in-top,
 #contactPage .lines .fade-in-top,
+#workPage .lines .fade-in-top,
 #projectsPage .lines .fade-in-top,
 #skillsPage .lines .fade-in-top {
     opacity: 1;
@@ -69,6 +72,7 @@
 
 #aboutPage .lines .fade-in-bottom,
 #contactPage .lines .fade-in-bottom,
+#workPage .lines .fade-in-bottom,
 #projectsPage .lines .fade-in-bottom,
 #skillsPage .lines .fade-in-bottom {
     opacity: 1;
@@ -79,6 +83,7 @@
     transform: none
 }
 
+#workPage .work-info,
 #projectsPage .projects-info,
 .about-info,
 .about-links>span,
@@ -100,6 +105,7 @@
 #aboutPage .fade-in-info,
 #aboutPage .fade-in-link,
 #contactPage .fade-in-info,
+#workPage .fade-in-info,
 #projectsPage .fade-in-info,
 #skillsPage .fade-in-info {
     opacity: 1;
@@ -133,6 +139,7 @@
     transform: none
 }
 
+#workPage .work-btns,
 #projectsPage .projects-btns,
 .about-btns {
     opacity: 0;
@@ -149,6 +156,7 @@
 }
 
 #aboutPage .fade-in-btn,
+#workPage .fade-in-btn,
 #projectsPage .fade-in-btn {
     opacity: 1;
     -webkit-transform: none;
@@ -252,6 +260,7 @@
     transform: none
 }
 
+#workPage .work-layout,
 #projectsPage .projects-layout {
     grid-gap: 50px;
     opacity: 0;
@@ -267,6 +276,7 @@
     transition: all .65s ease-out
 }
 
+#workPage .fade-in-grid,
 #projectsPage .fade-in-grid {
     grid-gap: 0;
     opacity: 1;
@@ -277,6 +287,8 @@
     transform: none
 }
 
+#workPage .work-mobile-down1>img,
+#workPage .work-mobile-down2>img,
 #projectsPage .projects-mobile-down1>img,
 #projectsPage .projects-mobile-down2>img {
     opacity: 0;
@@ -292,6 +304,7 @@
     transition: all .65s ease-out
 }
 
+#workPage .fade-in-mobile,
 #projectsPage .fade-in-mobile {
     opacity: 1!important;
     -webkit-transform: none!important;

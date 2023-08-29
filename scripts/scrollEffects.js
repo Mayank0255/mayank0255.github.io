@@ -1,14 +1,16 @@
 $(document).ready(function(){
     var e = new ScrollMagic.Controller;
     new ScrollMagic
-        .Scene({
-            triggerElement:"#aboutPage",duration:"100%"
-        })
+        .Scene({triggerElement:"#aboutPage",duration:"100%"})
         .setClassToggle("#about-headline","fade-in-headline")
         .addTo(e);
     new ScrollMagic
         .Scene({triggerElement:"#skillsPage",duration:"100%"})
         .setClassToggle("#skills-headline","fade-in-headline")
+        .addTo(e);
+    new ScrollMagic
+        .Scene({triggerElement:"#workPage",duration:"100%"})
+        .setClassToggle("#work-headline","fade-in-headline")
         .addTo(e);
     new ScrollMagic
         .Scene({triggerElement:"#projectsPage",duration:"100%"})
@@ -33,6 +35,14 @@ $(document).ready(function(){
     new ScrollMagic
         .Scene({triggerElement:"#skillsPage",duration:"100%"})
         .setClassToggle("#skillsPage .lines .bottom-line","fade-in-bottom")
+        .addTo(e);
+    new ScrollMagic
+        .Scene({triggerElement:"#workPage",duration:"100%"})
+        .setClassToggle("#workPage .lines .top-line","fade-in-top")
+        .addTo(e);
+    new ScrollMagic
+        .Scene({triggerElement:"#workPage",duration:"100%"})
+        .setClassToggle("#workPage .lines .bottom-line","fade-in-bottom")
         .addTo(e);
     new ScrollMagic
         .Scene({triggerElement:"#projectsPage",duration:"100%"})
@@ -63,6 +73,10 @@ $(document).ready(function(){
         .setClassToggle("#skillsPage .skills-tab","fade-in-tab")
         .addTo(e);
     new ScrollMagic
+        .Scene({triggerElement:"#workPage",duration:"100%"})
+        .setClassToggle("#workPage .work-info","fade-in-info")
+        .addTo(e);
+    new ScrollMagic
         .Scene({triggerElement:"#projectsPage",duration:"100%"})
         .setClassToggle("#projectsPage .projects-info","fade-in-info")
         .addTo(e);
@@ -77,6 +91,10 @@ $(document).ready(function(){
     new ScrollMagic
         .Scene({triggerElement:"#aboutPage",duration:"100%"})
         .setClassToggle("#aboutPage .about-btns","fade-in-btn")
+        .addTo(e);
+    new ScrollMagic
+        .Scene({triggerElement:"#workPage",duration:"100%"})
+        .setClassToggle("#workPage .work-btns","fade-in-btn")
         .addTo(e);
     new ScrollMagic
         .Scene({triggerElement:"#projectsPage",duration:"100%"})
@@ -97,6 +115,18 @@ $(document).ready(function(){
     new ScrollMagic
         .Scene({triggerElement:"#skillsPage",duration:"100%"})
         .setClassToggle("#skillsPage .skills-up","fade-in-upgrid")
+        .addTo(e);
+    new ScrollMagic
+        .Scene({triggerElement:"#workPage",duration:"100%"})
+        .setClassToggle("#workPage .work-layout","fade-in-grid")
+        .addTo(e);
+    new ScrollMagic
+        .Scene({triggerElement:"#workPage",duration:"100%"})
+        .setClassToggle("#workPage .work-mobile-down1 > img","fade-in-mobile")
+        .addTo(e);
+    new ScrollMagic
+        .Scene({triggerElement:"#workPage",duration:"100%"})
+        .setClassToggle("#workPage .work-mobile-down2 > img","fade-in-mobile")
         .addTo(e);
     new ScrollMagic
         .Scene({triggerElement:"#projectsPage",duration:"100%"})
