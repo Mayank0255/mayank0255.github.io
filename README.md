@@ -1,139 +1,61 @@
-# Tempus Spatium
+# Chirpy Starter
 
-[![Automatic build](https://github.com/Booodaness/tempus-spatium/actions/workflows/pages-deploy.yml/badge.svg)](https://github.com/Booodaness/tempus-spatium/actions/workflows/pages-deploy.yml)
-[![Website](https://img.shields.io/website?down_color=critical&down_message=down&up_color=success&up_message=up&url=https%3A%2F%2Fbooodaness.github.io%2Ftempus-spatium%2F)](https://booodaness.github.io/tempus-spatium/)
-[![GitHub commit category](https://img.shields.io/github/commit-category/m/Booodaness/tempus-spatium)](https://github.com/Booodaness/tempus-spatium/commits/main)
-[![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-important)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
+[![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
 
-![Logo](assets/img/site/avatar.png)
+When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders
+`_data`, `_layouts`, `_includes`, `_sass` and `assets`, as well as a small part of options of the `_config.yml` file
+from the theme's gem. If you have ever installed this theme gem, you can use the command
+`bundle info --path jekyll-theme-chirpy` to locate these files.
 
-## About
+The Jekyll team claims that this is to leave the ball in the user’s court, but this also results in users not being
+able to enjoy the out-of-the-box experience when using feature-rich themes.
 
-A blog for physics, mathematics and philosophy, maintained by Siddhartha Bhattacharjee. Detailed description in the blog's [about](https://booodaness.github.io/tempus-spatium/about/) page.
+To fully use all the features of **Chirpy**, you need to copy the other critical files from the theme's gem to your
+Jekyll site. The following is a list of targets:
 
-## Viewing the site
-
-### On the internet
-
-This website is hosted at https://booodaness.github.io/tempus-spatium/.
-
-### Locally
-
-To run this site as a local server, follow the steps below:
-
-1. Make sure you have [Git](https://git-scm.com/) installed. Open Git bash and clone this repository into your system:
-
-```
-cd <parent_directory>
-
-git clone https://github.com/Booodaness/tempus-spatium
+```shell
+.
+├── _config.yml
+├── _plugins
+├── _tabs
+└── index.html
 ```
 
-2. Download the latest stable release of [Ruby](https://www.ruby-lang.org/en/downloads/).
+To save you time, and also in case you lose some files while copying, we extract those files/configurations of the
+latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
 
-3. Install [Bundler](https://bundler.io/).
+## Prerequisites
 
-4. Navigate to the clone of this repository made in step 1:
+Follow the instructions in the [Jekyll Docs](https://jekyllrb.com/docs/installation/) to complete the installation of
+the basic environment. [Git](https://git-scm.com/) also needs to be installed.
 
-```
-cd <parent_directory>/tempus-spatium
-```
+## Installation
 
-5. Open Git bash and run `bundle install`, followed by:
+Sign in to GitHub and [**use this template**][use-template] to generate a brand new repository and name it
+`USERNAME.github.io`, where `USERNAME` represents your GitHub username.
 
-```
-$ bundle exec jekyll serve
-```
+Then clone it to your local machine and run:
 
-You will get an output resembling:
-
-```
-Configuration file: <parent_directory>/tempus-spatium/_config.yml
- Theme Config file: <parent_directory>/tempus-spatium/_config.yml
-            Source: <parent_directory>/tempus-spatium
-       Destination: <parent_directory>/tempus-spatium/_site
- Incremental build: disabled. Enable with --incremental
-      Generating...
-                    done in <seconds> seconds.
- Auto-regeneration: enabled for '<parent_directory>/tempus-spatium'
-    Server address: http://127.0.0.1:4000/tempus-spatium/
-  Server running... press ctrl-c to stop.
+```console
+$ bundle
 ```
 
-6. Open your browser and go to `http://127.0.0.1:4000/tempus-spatium/`.
+## Usage
 
-## Development
+Please see the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy#documentation).
 
-### Facilities used
+## Contributing
 
-This project is powered by various facilities. Given below are links to their documentation:
+The contents of this repository are automatically updated when new releases are made to the [main repository][chirpy].  
+If you have problems using it, or would like to participate in improving it, please go to the main repository for feedback!
 
-1. [Jekyll](https://jekyllrb.com/docs/)
+## License
 
-2. [jekyll-theme-chirpy](https://github.com/cotes2020/jekyll-theme-chirpy)
+This work is published under [MIT][mit] License.
 
-3. [GitHub Pages](https://docs.github.com/en/pages)
-
-### Contributing
-
-#### Posts
-
-1. Visit the concerned post on the [blog](https://booodaness.github.io/tempus-spatium/).
-
-2. Click the 'Suggest edits' link in the post's metadata.
-
-3. Follow the steps below.
-
-#### General
-
-1. [Fork this repository](https://github.com/Booodaness/tempus-spatium/fork).
-
-2. Make changes and push them to the fork's remote.
-
-3. Start a pull request.
-
-4. Optionally, document the changes in the request's review page.
-
-## Using the work
-
-### Adaptation
-
-Except where otherwise noted, the blog posts on this site are [licensed](LICENCE.md) under [Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/).
-
-Hence, any individual or group of individuals can reuse and modify the material as long as:
-
-1. The purpose is non-commercial.
-
-2. Credit is given to the author by mentioning their name (Siddhartha Bhattacharjee) and linking to the original content.
-
-3. The new material must be distributed under the same license.
-
-### Citation
-
-#### Posts
-
-Blog posts can be cited as BibTeX,
-
-```
-@article{bhattacharjee:2022,
-  title={<post_title>},
-  author={Siddhartha Bhattacharjee},
-  journal={Tempus Spatium},
-  url={https://booodaness.github.io/tempus-spatium/<post_name>},
-  year={2022},
-  publisher={GitHub Pages}}
-```
-
-Where, `post_title` is the title of the post and `post_name` is the part of its URL succeeding `https://booodaness.github.io`.
-
-#### Repository
-
-To cite this repository as a dataset, use the BibTeX,
-
-```
-@misc{Bhattacharjee_Tempus_Spatium,
-author = {Bhattacharjee, Siddhartha},
-title = {{Tempus Spatium}},
-url = {https://booodaness.github.io/tempus-spatium/}
-}
-```
+[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
+[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
+[use-template]: https://github.com/cotes2020/chirpy-starter/generate
+[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
+[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
