@@ -102,8 +102,8 @@ flush() {
 }
 
 deploy() {
-  git config --global user.name "Your Name"
-  git config --global user.email "your_email@example.com"
+  git config --global user.name "Mayank Aggarwal"
+  git config --global user.email "mayank2aggarwal@gmail.com"
 
   git init  # Ensure the .git directory is created
   git remote add origin https://x-access-token:${GH_TOKEN}@github.com/Mayank0255/mayank0255.github.io.git
