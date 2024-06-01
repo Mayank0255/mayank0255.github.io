@@ -85,21 +85,22 @@ main() {
 
   echo "Input a version number (hint: latest version is ${_latest_tag:1})"
 
-  read -p "> " _version
+  read _version
 
-  [[ $_version =~ ^[[:digit:]]+\.[[:digit:]]+\.[[:digit:]]$ ]] ||
-    (
-      echo "Error: Illegal version number: '$_version'"
-      exit 1
-    )
+  if [[ $_version =~ ^[[:digit:]]+\.[[:digit:]]+\.[[:digit:]]$ ]]; then
 
-  if git tag --list | egrep -q "^v$_version$"; then
-    echo "Error: version '$_version' already exists"
-    exit 1
+    if git tag --list | egrep -q "^v$_version$"; then
+      echo "Error: version '$_version' already exists"
+      exit -1
+    fi
+
+    echo -e "Bump version to $_version\n"
+    bump "$_version"
+
+  else
+
+    echo "Error: Illegal version number: '$_version'"
   fi
-
-  echo -e "Bump version to $_version\n"
-  bump "$_version"
 
 }
 
