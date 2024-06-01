@@ -1,0 +1,50 @@
+I"
+<p><a href="https://github.com/Amegma/Galaxy-Attack"><img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Github-desktop-logo-symbol.svg" width="22" height="22" /> GitHub Repo</a></p>
+
+<p>This project comes under an open-source gaming organization called <a href="https://github.com/Amegma">Amegma</a>, and it is an inspiration of an arcade game which was Atari Space Invaders</p>
+
+<p><a href="https://youtu.be/ejA89NtTH2k">Demo Game Video</a></p>
+
+<h2 id="technologies-used">Technologies Used</h2>
+
+<ul>
+  <li>Python</li>
+  <li>Framework - PyGame</li>
+  <li>Other modules - time, os, sys, ctypes, etc.</li>
+</ul>
+
+<h2 id="guidelines-to-setup">Guidelines to setup</h2>
+
+<h3 id="prerequisites">Prerequisites</h3>
+
+<ul>
+  <li>Python should be installed: <code class="language-plaintext highlighter-rouge">Python version &gt; 3.10</code></li>
+  <li>Pygame should be installed: <code class="language-plaintext highlighter-rouge">Pygame version &gt; 1.9.5</code></li>
+</ul>
+
+<h3 id="run-the-game">Run the game</h3>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>python &lt;file_path&gt;/main.py
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<h3 id="create-a-release">Create a release</h3>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>pyinstaller.exe .\main.spec
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<h2 id="demo">DEMO</h2>
+
+<h4 id="images">IMAGES:</h4>
+
+<p><img src="/assets/img/posts/projects/amegma-galaxy-attack/1.png" width="75%" />
+<img src="/assets/img/posts/projects/amegma-galaxy-attack/2.png" width="75%" />
+<img src="/assets/img/posts/projects/amegma-galaxy-attack/3.png" width="75%" />
+<img src="/assets/img/posts/projects/amegma-galaxy-attack/4.png" width="75%" />
+<img src="/assets/img/posts/projects/amegma-galaxy-attack/5.png" width="75%" />
+<img src="/assets/img/posts/projects/amegma-galaxy-attack/6.png" width="75%" />
+<img src="/assets/img/posts/projects/amegma-galaxy-attack/7.png" width="75%" />
+<img src="/assets/img/posts/projects/amegma-galaxy-attack/8.png" width="75%" />
+<img src="/assets/img/posts/projects/amegma-galaxy-attack/9.png" width="75%" />
+<img src="/assets/img/posts/projects/amegma-galaxy-attack/10.png" width="75%" /></p>
+
+:ET
