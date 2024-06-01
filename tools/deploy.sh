@@ -106,7 +106,13 @@ deploy() {
   git config --global user.email "mayank2aggarwal@gmail.com"
 
   git init  # Ensure the .git directory is created
-  git remote add origin https://x-access-token:${GH_TOKEN}@github.com/Mayank0255/mayank0255.github.io.git
+  
+  # Check if the remote already exists
+  if git remote | grep origin; then
+    git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/Mayank0255/mayank0255.github.io.git
+  else
+    git remote add origin https://x-access-token:${GH_TOKEN}@github.com/Mayank0255/mayank0255.github.io.git
+  fi
 
   git add -A
   git commit -m "[Automation] Site update No.${GITHUB_RUN_NUMBER}"
