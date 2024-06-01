@@ -102,17 +102,19 @@ flush() {
 }
 
 deploy() {
-  git config --global user.name "GitHub Actions"
-  git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+  git config --global user.name "Mayank Aggarwal"
+  git config --global user.email "mayank2aggarwal@gmail.com"
 
-  git update-ref -d HEAD
+  git init  # Ensure the .git directory is created
+  git remote add origin https://x-access-token:${GH_TOKEN}@github.com/Mayank0255/mayank0255.github.io.git
+
   git add -A
   git commit -m "[Automation] Site update No.${GITHUB_RUN_NUMBER}"
 
   if $_no_pages_branch; then
     git push -u origin "$PAGES_BRANCH"
   else
-    git push -f
+    git push -f origin HEAD:"$PAGES_BRANCH"
   fi
 }
 
