@@ -98,29 +98,20 @@ flush() {
 
   shopt -s dotglob nullglob
   mv "$_backup_dir"/* .
-  [[ -f ".nojekyll" ]] || echo "" >".nojekyll"
 }
 
 deploy() {
-  git config --global user.name "Mayank Aggarwal"
-  git config --global user.email "mayank2aggarwal@gmail.com"
+  git config --global user.name "GitHub Actions"
+  git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-  git init  # Ensure the .git directory is created
-  
-  # Check if the remote already exists
-  if git remote | grep origin; then
-    git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/Mayank0255/mayank0255.github.io.git
-  else
-    git remote add origin https://x-access-token:${GH_TOKEN}@github.com/Mayank0255/mayank0255.github.io.git
-  fi
-
+  git update-ref -d HEAD
   git add -A
   git commit -m "[Automation] Site update No.${GITHUB_RUN_NUMBER}"
 
   if $_no_pages_branch; then
     git push -u origin "$PAGES_BRANCH"
   else
-    git push -f origin HEAD:"$PAGES_BRANCH"
+    git push -f
   fi
 }
 
@@ -143,25 +134,25 @@ main() {
 while (($#)); do
   opt="$1"
   case $opt in
-  -c | --config)
-    _config="$2"
-    shift
-    shift
-    ;;
-  --dry-run)
-    # build & test, but not deploy
-    _opt_dry_run=true
-    shift
-    ;;
-  -h | --help)
-    help
-    exit 0
-    ;;
-  *)
-    # unknown option
-    help
-    exit 1
-    ;;
+    -c | --config)
+      _config="$2"
+      shift
+      shift
+      ;;
+    --dry-run)
+      # build & test, but not deploy
+      _opt_dry_run=true
+      shift
+      ;;
+    -h | --help)
+      help
+      exit 0
+      ;;
+    *)
+      # unknown option
+      help
+      exit 1
+      ;;
   esac
 done
 
