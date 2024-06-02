@@ -7,7 +7,7 @@ tail_includes:
   - related-posts
   - post-nav
 ---
-
+  
 {% include lang.html %}
 
 {% if page.image.src %}
@@ -116,7 +116,7 @@ tail_includes:
   <div class="post-tags">
     <i class="fa fa-tags fa-fw mr-1"></i>
       {% for tag in page.tags %}
-      <a href="{{ site.baseurl }}/tags/{{ tag | slugify | url_encode }}/"
+      <a href="{{ site.url }}/tags/{{ tag | slugify | url_encode }}/"
           class="post-tag no-text-decoration" >
         {{- tag -}}
       </a>
