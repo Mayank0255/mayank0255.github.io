@@ -10,4 +10,4 @@ tags: [
   ]
 ---
 
-<img src="/assets/img/posts/certifications/introduction-css3/CERTIFICATE_LANDING_PAGE~ENN8TMVJXGDX.jpeg" width="75%">
+<img src="assets/img/posts/certifications/introduction-css3/CERTIFICATE_LANDING_PAGE~ENN8TMVJXGDX.jpeg" width="75%">

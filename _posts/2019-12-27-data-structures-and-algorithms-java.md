@@ -10,4 +10,4 @@ tags: [
   ]
 ---
 
-<img src="/assets/img/posts/certifications/data-structures-java/UC-SGU9LO91.jpg" width="75%">
+<img src="assets/img/posts/certifications/data-structures-java/UC-SGU9LO91.jpg" width="75%">

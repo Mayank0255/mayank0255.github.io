@@ -9,7 +9,7 @@ tags: [
   ]
 pin: true
 image:
-  src: /assets/img/posts/experience/zomato/speedup_1_5x.gif
+  src: assets/img/posts/experience/zomato/speedup_1_5x.gif
   alt: Zomato Logo
 ---
 

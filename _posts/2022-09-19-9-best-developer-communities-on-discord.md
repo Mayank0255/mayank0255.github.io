@@ -6,7 +6,7 @@ tags: [
   Programming, JavaScript, Python, React, Tech
   ]
 image:
-  src: /assets/img/posts/articles/discord/cover.webp
+  src: assets/img/posts/articles/discord/cover.webp
   alt: Reddit
 ---
 

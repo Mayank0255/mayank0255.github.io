@@ -5,7 +5,7 @@ work_time: "Part-Time"
 categories: [🧑🏻‍💻 Work, Experience]
 tags: [Web Development, JSON, Back-End Web Development, Git, JavaScript, NestJS, Next.js]
 image:
-  src: /assets/img/posts/experience/techpot/cropped-Untitled-2.png
+  src: assets/img/posts/experience/techpot/cropped-Untitled-2.png
   alt: techpot Logo
 ---
 

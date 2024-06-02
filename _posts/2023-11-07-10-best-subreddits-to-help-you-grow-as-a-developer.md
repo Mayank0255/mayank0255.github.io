@@ -6,7 +6,7 @@ tags: [
   Reddit, Development, Coding, Software Development, JavaScript
   ]
 image:
-  src: /assets/img/posts/articles/subreddits/cover.webp
+  src: assets/img/posts/articles/subreddits/cover.webp
   alt: Reddit
 ---
 

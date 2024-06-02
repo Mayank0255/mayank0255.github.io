@@ -5,7 +5,7 @@ work_time: "Full-Time"
 categories: [🧑🏻‍💻 Work, Experience]
 tags: [MongoDB, Express.js, GitHub, Web Development, JSON, Postman API, Back-End Web Development, Git, Node.js, JavaScript]
 image:
-  src: /assets/img/posts/experience/stack-finance/cropped-Untitled-1.png
+  src: assets/img/posts/experience/stack-finance/cropped-Untitled-1.png
   alt: techpot Logo
 ---
 

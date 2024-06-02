@@ -11,7 +11,7 @@ tags: [
 #     path: "pdf/posts/2024-01-28-analysis-three-body-problem/final.pdf"
 #     options: "view=FitH"
 image:
-  src: /assets/img/posts/projects/movie-surfer/1.webp
+  src: assets/img/posts/projects/movie-surfer/1.webp
   alt: Logo
 ---
 
@@ -56,9 +56,9 @@ image:
 
 ### Images
 
-<img src="/assets/img/posts/projects/movie-surfer/2.webp" width="75%" />
-<img src="/assets/img/posts/projects/movie-surfer/3.webp" width="75%" />
-<img src="/assets/img/posts/projects/movie-surfer/4.webp" width="75%" />
-<img src="/assets/img/posts/projects/movie-surfer/5.webp" width="75%" />
-<img src="/assets/img/posts/projects/movie-surfer/6.webp" width="75%" />
+<img src="assets/img/posts/projects/movie-surfer/2.webp" width="75%" />
+<img src="assets/img/posts/projects/movie-surfer/3.webp" width="75%" />
+<img src="assets/img/posts/projects/movie-surfer/4.webp" width="75%" />
+<img src="assets/img/posts/projects/movie-surfer/5.webp" width="75%" />
+<img src="assets/img/posts/projects/movie-surfer/6.webp" width="75%" />
 

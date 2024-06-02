@@ -10,4 +10,4 @@ tags: [
   ]
 ---
 
-<img src="/assets/img/posts/certifications/react-developer/UC-634c1d23-740f-47ad-9464-c8b1b56b176b.jpg" width="75%">
+<img src="assets/img/posts/certifications/react-developer/UC-634c1d23-740f-47ad-9464-c8b1b56b176b.jpg" width="75%">

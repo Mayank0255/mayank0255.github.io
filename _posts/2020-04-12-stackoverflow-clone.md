@@ -19,7 +19,7 @@ tags: [
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://shields.io/)
 
 <div class="video-wrapper">
-  <video src="/assets/video/stackoverflow-demo.mp4" controls />
+  <video src="stackoverflow-demo.mp4" controls />
 </div>
 
 ### [🌐 Website](https://stackoverflow-clone-client.vercel.app)  |  [<img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Github-desktop-logo-symbol.svg" width="22" height="22"> Frontend Repo](https://github.com/Mayank0255/Stackoverflow-Clone-Frontend)  |  [<img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Github-desktop-logo-symbol.svg" width="22" height="22"> Backend Repo](https://github.com/Mayank0255/Stackoverflow-Clone-Backend)  |  [📹 Demo Video](https://www.youtube.com/watch?v=bUAAgfGOfYg)
@@ -96,10 +96,10 @@ _Video Last Updated on 7th March, 2022_
 
 ### Images
 
-<img src="/assets/img/posts/projects/stackoverflow-clone/1.png" width="75%" />
-<img src="/assets/img/posts/projects/stackoverflow-clone/2.png" width="75%" />
-<img src="/assets/img/posts/projects/stackoverflow-clone/4.png" width="75%" />
-<img src="/assets/img/posts/projects/stackoverflow-clone/6.png" width="75%" />
-<img src="/assets/img/posts/projects/stackoverflow-clone/7.png" width="75%" />
-<img src="/assets/img/posts/projects/stackoverflow-clone/9.png" width="75%" />
-<img src="/assets/img/posts/projects/stackoverflow-clone/10.png" width="75%" />
+<img src="assets/img/posts/projects/stackoverflow-clone/1.png" width="75%" />
+<img src="assets/img/posts/projects/stackoverflow-clone/2.png" width="75%" />
+<img src="assets/img/posts/projects/stackoverflow-clone/4.png" width="75%" />
+<img src="assets/img/posts/projects/stackoverflow-clone/6.png" width="75%" />
+<img src="assets/img/posts/projects/stackoverflow-clone/7.png" width="75%" />
+<img src="assets/img/posts/projects/stackoverflow-clone/9.png" width="75%" />
+<img src="assets/img/posts/projects/stackoverflow-clone/10.png" width="75%" />

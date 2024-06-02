@@ -10,4 +10,4 @@ tags: [
   ]
 ---
 
-<img src="/assets/img/posts/certifications/programming-foundations/CERTIFICATE_LANDING_PAGE~7W2TLLFASCSK.jpeg" width="75%">
+<img src="assets/img/posts/certifications/programming-foundations/CERTIFICATE_LANDING_PAGE~7W2TLLFASCSK.jpeg" width="75%">

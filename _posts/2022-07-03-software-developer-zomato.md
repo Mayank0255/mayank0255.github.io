@@ -9,7 +9,7 @@ tags: [
   Redux, New Relic APM, Kibana, Front-end Development, Python, JavaScript, Grafana
   ]
 image:
-  src: /assets/img/posts/experience/zomato/sped_up_1_3x.gif
+  src: assets/img/posts/experience/zomato/sped_up_1_3x.gif
   alt: Zomato Logo
 ---
 

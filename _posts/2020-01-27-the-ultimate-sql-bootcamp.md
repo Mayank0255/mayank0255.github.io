@@ -10,4 +10,4 @@ tags: [
   ]
 ---
 
-<img src="/assets/img/posts/certifications/mysql-bootcamp/UC-FCVMK9TI.jpg" width="75%">
+<img src="assets/img/posts/certifications/mysql-bootcamp/UC-FCVMK9TI.jpg" width="75%">

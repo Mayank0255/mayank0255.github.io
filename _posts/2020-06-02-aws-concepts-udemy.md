@@ -10,4 +10,4 @@ tags: [
   ]
 ---
 
-<img src="/assets/img/posts/certifications/aws-concepts/UC-45808fb4-f30d-4469-9ebe-cee993ced0c8.jpg" width="75%">
+<img src="assets/img/posts/certifications/aws-concepts/UC-45808fb4-f30d-4469-9ebe-cee993ced0c8.jpg" width="75%">

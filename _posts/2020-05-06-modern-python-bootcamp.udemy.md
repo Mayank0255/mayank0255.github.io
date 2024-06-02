@@ -10,4 +10,4 @@ tags: [
   ]
 ---
 
-<img src="/assets/img/posts/certifications/modern-python/UC-44018296-48d7-4a43-ad63-0cb285bf4ae1.jpg" width="75%">
+<img src="assets/img/posts/certifications/modern-python/UC-44018296-48d7-4a43-ad63-0cb285bf4ae1.jpg" width="75%">

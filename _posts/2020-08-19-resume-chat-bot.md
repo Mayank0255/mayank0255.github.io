@@ -42,7 +42,7 @@ _NOTE: Not for public use currently due to Facebook policy._
   
 ### Images
 
-<img src="/assets/img/posts/projects/resume-chat-bot/1.webp" width="75%" />
-<img src="/assets/img/posts/projects/resume-chat-bot/2.webp" width="75%" />
-<img src="/assets/img/posts/projects/resume-chat-bot/3.webp" width="75%" />
+<img src="assets/img/posts/projects/resume-chat-bot/1.webp" width="75%" />
+<img src="assets/img/posts/projects/resume-chat-bot/2.webp" width="75%" />
+<img src="assets/img/posts/projects/resume-chat-bot/3.webp" width="75%" />
 

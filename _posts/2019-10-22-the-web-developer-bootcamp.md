@@ -10,4 +10,4 @@ tags: [
   ]
 ---
 
-<img src="/assets/img/posts/certifications/web-developer/UC-7I5IAB5S.jpg" width="75%">
+<img src="assets/img/posts/certifications/web-developer/UC-7I5IAB5S.jpg" width="75%">

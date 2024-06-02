@@ -7,7 +7,7 @@ tags: [
   ]
 pin: true
 image:
-  src: /assets/img/posts/articles/zomato-internship/zomato.webp
+  src: assets/img/posts/articles/zomato-internship/zomato.webp
   alt: Zomato Logo
 
 ---
@@ -46,7 +46,7 @@ After getting connected with a couple of Recruiters, I began sending messages to
 
 For that, I used to make sure of a couple of things like I am pretty active on LinkedIn, and due to which I came across a LinkedIn post shown below 👇
 
-<img src="/assets/img/posts/articles/zomato-internship/got-connected.webp" width="50%">
+<img src="assets/img/posts/articles/zomato-internship/got-connected.webp" width="50%">
 
 Here as you can see, the company is looking for Full-time Android Engineer, which means that hiring for the tech team might be active right now. So, this was my cue to start sending out the messages, as if they are looking for full-time employees, then there is no harm in asking for an internship. One thing I kept in mind before texting them is that I used to see that, is the recruiter or the HR online now? As it's evident that I won't be the only one reaching out to HR, that's why, if someone is active on LinkedIn and a new message comes in then, it would be on the top of the list, at that time it wouldn't make a difference that how many people have messaged the Recruiter till then.
 
@@ -60,7 +60,7 @@ I am a final-year student pursuing BTech in IT. My domains of interest are FullS
 
 ### I Got A Reply 🎉
 
-<img src="/assets/img/posts/articles/zomato-internship/got-reply.webp" width="50%">
+<img src="assets/img/posts/articles/zomato-internship/got-reply.webp" width="50%">
 
 This is the reply I got from them, and I replied as soon as I could, so that I can get a follow-up reply instantly. Observe here, that the recruiter said,
 
@@ -93,7 +93,7 @@ Another thing is to keep your LinkedIn profile up-to-date, and it's not just abo
 My next blog will be on "How To Take Full Advantage Of LinkedIn", where I will be writing a complete guide for LinkedIn.
 
 <!-- <div class="mt-3 mb-3 mx-auto"> -->
-  <img src="/assets/img/posts/articles/zomato-internship/swags.webp" width="60%">
+  <img src="assets/img/posts/articles/zomato-internship/swags.webp" width="60%">
   <figcaption class="text-center pt-2 pb-2">Photo by Gangotree Das</figcaption>
 <!-- </div> -->
 
