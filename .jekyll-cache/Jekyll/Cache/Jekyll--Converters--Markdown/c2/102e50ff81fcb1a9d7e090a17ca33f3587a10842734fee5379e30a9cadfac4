@@ -1,0 +1,64 @@
+I"”<p><a href="https://github.com/Mayank0255/Blog-Site"><img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Github-desktop-logo-symbol.svg" width="22" height="22" /> GitHub Repo</a></p>
+
+<h2 id="technologies-used">Technologies Used</h2>
+
+<h3 id="back-end">Back-end</h3>
+
+<ul>
+  <li>For handling server requests: <code class="language-plaintext highlighter-rouge">Node.Js (with Express Framework)</code></li>
+  <li>As Database: <code class="language-plaintext highlighter-rouge">MySQL</code></li>
+</ul>
+
+<h3 id="front-end">Front-end</h3>
+
+<ul>
+  <li>Tools: <code class="language-plaintext highlighter-rouge">HTML, CSS &amp; Javascript</code></li>
+  <li>Framework: <code class="language-plaintext highlighter-rouge">Semantic UI</code></li>
+</ul>
+
+<h2 id="guidelines-to-setup">Guidelines to setup</h2>
+
+<h3 id="prerequisites">Prerequisites</h3>
+
+<ul>
+  <li>NPM should be installed: <code class="language-plaintext highlighter-rouge">NPM version &gt; 6.8.5</code></li>
+  <li>NODE should be installed: <code class="language-plaintext highlighter-rouge">NODE LTS version &gt; 10.12.8</code></li>
+  <li>MySQL should be installed: <code class="language-plaintext highlighter-rouge">MySQL version &gt; 8.0.10</code></li>
+</ul>
+
+<h3 id="steps">Steps</h3>
+
+<ol>
+  <li>Create a <code class="language-plaintext highlighter-rouge">.env</code> file and the format should be as given in <code class="language-plaintext highlighter-rouge">.env.example</code>.</li>
+  <li>Run these commands then -
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><!-- <td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td> --><td class="rouge-code"><pre> npm install (To install all the dependencies)
+    
+ npm audit fix     (Run this to audit fix all the vulnerabilities)
+</pre></td></tr></tbody></table></code></pre></div>    </div>
+  </li>
+  <li>Run <code class="language-plaintext highlighter-rouge">setup.sql</code> file in the mysql client
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><!-- <td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td> --><td class="rouge-code"><pre> source &lt;file path&gt;/setup.sql
+</pre></td></tr></tbody></table></code></pre></div>    </div>
+  </li>
+  <li>Start the server -
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><!-- <td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td> --><td class="rouge-code"><pre> npm start (run the server)
+</pre></td></tr></tbody></table></code></pre></div>    </div>
+  </li>
+</ol>
+
+<h2 id="demo">Demo</h2>
+
+<h3 id="images">Images</h3>
+
+<p><img src="/assets/img/posts/projects/blog-site/1.png" width="75%" />
+<img src="/assets/img/posts/projects/blog-site/2.png" width="75%" />
+<img src="/assets/img/posts/projects/blog-site/3.png" width="75%" />
+<img src="/assets/img/posts/projects/blog-site/4.png" width="75%" />
+<img src="/assets/img/posts/projects/blog-site/5.png" width="75%" />
+<img src="/assets/img/posts/projects/blog-site/6.png" width="75%" /></p>
+:ET

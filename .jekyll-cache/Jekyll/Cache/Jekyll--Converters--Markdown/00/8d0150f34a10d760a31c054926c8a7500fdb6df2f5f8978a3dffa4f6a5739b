@@ -1,0 +1,45 @@
+I"¤<p><a href="https://github.com/Mayank0255/SD-Times"><img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Github-desktop-logo-symbol.svg" width="22" height="22" /> GitHub Repo</a></p>
+
+<h2 id="technologies-used">Technologies Used</h2>
+
+<ul>
+  <li>Programming Language: <code class="language-plaintext highlighter-rouge">Dart with flutter as the framework</code></li>
+  <li>API used: <code class="language-plaintext highlighter-rouge">Hacker News API</code></li>
+  <li>As Database: <code class="language-plaintext highlighter-rouge">Sqlite</code></li>
+</ul>
+
+<h4 id="app-installation---get-apk">App Installation - <a href="https://drive.google.com/file/d/1wBy__RFOkYltBjbF5IUgNRTMRMpAiYKv/view?usp=sharing">Get APK</a></h4>
+
+<h2 id="guidelines-to-setup">Guidelines to setup</h2>
+
+<ol>
+  <li>Clone the repository
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><!-- <td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td> --><td class="rouge-code"><pre> git clone https://github.com/Mayank0255/SD-Times.git
+    
+ gh repo clone Mayank0255/SD-Times (for GitHub CLI)
+    
+ cd SD-Times
+</pre></td></tr></tbody></table></code></pre></div>    </div>
+  </li>
+  <li>Run the app
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><!-- <td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td> --><td class="rouge-code"><pre> flutter run
+</pre></td></tr></tbody></table></code></pre></div>    </div>
+  </li>
+</ol>
+
+<h2 id="demo">Demo</h2>
+
+<h3 id="images">Images</h3>
+
+<p><img src="/assets/img/posts/projects/sd-times/1.webp" width="75%" />
+<img src="/assets/img/posts/projects/sd-times/2.webp" width="75%" />
+<img src="/assets/img/posts/projects/sd-times/3.webp" width="75%" />
+<img src="/assets/img/posts/projects/sd-times/4.webp" width="75%" /></p>
+
+:ET

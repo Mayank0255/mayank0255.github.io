@@ -4,15 +4,15 @@
 
 layout:
   post: Postingan
-  category: Kategori
+  category: Aktiviti
   tag: Tagar
 
 # The tabs of sidebar
 tabs:
   # format: <filename_without_extension>: <value>
   home: Beranda
-  categories: Kategori
-  tags: Tagar
+  categories: Aktiviti
+  tags: Topik
   archives: Arsip
   about: Tentang
 
@@ -44,10 +44,9 @@ meta: Didukung oleh :PLATFORM dengan tema :THEME.
 
 not_found:
   statment: Maaf, kami gagal menemukan URL itu atau memang mengarah ke sesuatu yang tidak ada.
-
-notification:
-  update_found: Versi konten baru tersedia.
-  update: Perbarui
+  hint_template: :HEAD_BAK untuk mencoba mencari kembali, atau cari di :ARCHIVES_PAGE.
+  head_back: Kembali ke Beranda
+  archives_page: Halaman Arsip
 
 # ----- Posts related labels -----
 

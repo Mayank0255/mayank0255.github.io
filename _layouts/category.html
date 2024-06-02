@@ -1,6 +1,6 @@
 ---
 layout: page
-# The Category layout
+# The category layout
 ---
 
 <div id="page-category">
@@ -13,9 +13,19 @@ layout: page
   <ul class="post-content pl-0">
     {% for post in page.posts %}
     <li class="d-flex justify-content-between pl-md-3 pr-md-3">
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <a href="{{ post.url | relative_url }}">
+        {{ post.title }}
+        {% if post.sub_title %}
+        |&nbsp;{{ post.sub_title }}
+        {% endif %}
+      </a>
       <span class="dash flex-grow-1"></span>
-      {% include datetime.html date=post.date wrap='span' class='text-muted small' %}
+      {% if post.work_time %}
+      <span class="text-muted small">{{ post.work_time }}&nbsp;|&nbsp;</span>
+      {% endif %}
+      <span class="text-muted small" data-ts="{{ post.date | date: '%s' }}" data-df="ll">
+        {{ post.date | date: '%Y-%m-%d' }}
+      </span>
     </li>
     {% endfor %}
   </ul>

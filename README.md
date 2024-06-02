@@ -1,105 +1,139 @@
-<div align="center">
+# Tempus Spatium
 
-  # Chirpy Jekyll Theme
+[![Automatic build](https://github.com/Booodaness/tempus-spatium/actions/workflows/pages-deploy.yml/badge.svg)](https://github.com/Booodaness/tempus-spatium/actions/workflows/pages-deploy.yml)
+[![Website](https://img.shields.io/website?down_color=critical&down_message=down&up_color=success&up_message=up&url=https%3A%2F%2Fbooodaness.github.io%2Ftempus-spatium%2F)](https://booodaness.github.io/tempus-spatium/)
+[![GitHub commit category](https://img.shields.io/github/commit-category/m/Booodaness/tempus-spatium)](https://github.com/Booodaness/tempus-spatium/commits/main)
+[![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-important)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-  A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
+![Logo](assets/img/site/avatar.png)
 
-  [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy?color=brightgreen)](https://rubygems.org/gems/jekyll-theme-chirpy)
-  [![CI](https://github.com/cotes2020/jekyll-theme-chirpy/actions/workflows/ci.yml/badge.svg)](https://github.com/cotes2020/jekyll-theme-chirpy/actions/workflows/ci.yml)
-  [![Codacy Badge](https://app.codacy.com/project/badge/Grade/4e556876a3c54d5e8f2d2857c4f43894)](https://www.codacy.com/gh/cotes2020/jekyll-theme-chirpy/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=cotes2020/jekyll-theme-chirpy&amp;utm_campaign=Badge_Grade)
-  [![GitHub license](https://img.shields.io/github/license/cotes2020/jekyll-theme-chirpy.svg)](https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/LICENSE)
-  [![996.icu](https://img.shields.io/badge/link-996.icu-%23FF4D5B.svg)](https://996.icu)
+## About
 
-  [**Live Demo →**](https://cotes2020.github.io/chirpy-demo)
+A blog for physics, mathematics and philosophy, maintained by Siddhartha Bhattacharjee. Detailed description in the blog's [about](https://booodaness.github.io/tempus-spatium/about/) page.
 
-  [![Devices Mockup](https://chirpy-img.netlify.app/commons/devices-mockup.png)](https://cotes2020.github.io/chirpy-demo)
+## Viewing the site
 
-</div>
+### On the internet
 
-## Features
+This website is hosted at https://booodaness.github.io/tempus-spatium/.
 
-- Localized Layout
-- Dark/Light Theme Mode
-- Pinned Posts
-- Hierarchical Categories
-- Last Modified Date for Posts
-- Table of Contents
-- Auto-generated Related Posts
-- Syntax Highlighting
-- Mathematical Expressions
-- Mermaid Diagram & Flowchart
-- Disqus/Utterances/Giscus Comments
-- Search
-- Atom Feeds
-- Google Analytics
-- GA Pageviews Reporting
-- SEO & Performance Optimization
+### Locally
 
+To run this site as a local server, follow the steps below:
 
-## Quick Start
+1. Make sure you have [Git](https://git-scm.com/) installed. Open Git bash and clone this repository into your system:
 
-Before starting, please follow the instructions in the [Jekyll Docs](https://jekyllrb.com/docs/installation/) to complete the installation of `Ruby`, `RubyGems`, `Jekyll`, and `Bundler`. In addition, [Git](https://git-scm.com/) is also required to be installed.
+```
+cd <parent_directory>
 
-### Step 1. Creating a New Site
-
-Create a new repository from the [**Chirpy Starter**](https://github.com/cotes2020/chirpy-starter/generate) and name it `<GH_USERNAME>.github.io`, where `GH_USERNAME` represents your GitHub username.
-
-### Step 2. Installing Dependencies
-
-Before running for the first time, go to the root directory of your site, and install dependencies as follows:
-
-```console
-$ bundle
+git clone https://github.com/Booodaness/tempus-spatium
 ```
 
-### Step 3. Running Local Server
+2. Download the latest stable release of [Ruby](https://www.ruby-lang.org/en/downloads/).
 
-Run the following command in the root directory of the site:
+3. Install [Bundler](https://bundler.io/).
 
-```console
-$ bundle exec jekyll s
+4. Navigate to the clone of this repository made in step 1:
+
+```
+cd <parent_directory>/tempus-spatium
 ```
 
-Or run with Docker:
+5. Open Git bash and run `bundle install`, followed by:
 
-```console
-$ docker run -it --rm \
-    --volume="$PWD:/srv/jekyll" \
-    -p 4000:4000 jekyll/jekyll \
-    jekyll serve
+```
+$ bundle exec jekyll serve
 ```
 
-After a while, navigate to the site at <http://localhost:4000>.
+You will get an output resembling:
 
-## Documentation
+```
+Configuration file: <parent_directory>/tempus-spatium/_config.yml
+ Theme Config file: <parent_directory>/tempus-spatium/_config.yml
+            Source: <parent_directory>/tempus-spatium
+       Destination: <parent_directory>/tempus-spatium/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating...
+                    done in <seconds> seconds.
+ Auto-regeneration: enabled for '<parent_directory>/tempus-spatium'
+    Server address: http://127.0.0.1:4000/tempus-spatium/
+  Server running... press ctrl-c to stop.
+```
 
-For more details on usage, please refer to the tutorial on the [demo website](https://cotes2020.github.io/chirpy-demo/) / [wiki](https://github.com/cotes2020/jekyll-theme-chirpy/wiki). Note that the tutorial is based on the [latest release](https://github.com/cotes2020/jekyll-theme-chirpy/releases/latest), and the features of the default branch are usually ahead of the documentation.
+6. Open your browser and go to `http://127.0.0.1:4000/tempus-spatium/`.
 
-## Contributing
+## Development
 
-Welcome to report bugs, improve code quality or submit a new feature. For more information, see [contributing guidelines](.github/CONTRIBUTING.md).
+### Facilities used
 
-## Credits
+This project is powered by various facilities. Given below are links to their documentation:
 
-This theme is mainly built with [Jekyll](https://jekyllrb.com/) ecosystem, [Bootstrap](https://getbootstrap.com/), [Font Awesome](https://fontawesome.com/) and some other wonderful tools (their copyright information can be found in the relevant files). The avatar and favicon design come from [Clipart Max](https://www.clipartmax.com/middle/m2i8b1m2K9Z5m2K9_ant-clipart-childrens-ant-cute/).
+1. [Jekyll](https://jekyllrb.com/docs/)
 
-:tada: Thanks to all the volunteers who contributed to this project, their GitHub IDs are on [this list](https://github.com/cotes2020/jekyll-theme-chirpy/graphs/contributors). Also, I won't forget those guys who submitted the issues or unmerged PR because they reported bugs, shared ideas, or inspired me to write more readable documentation.
+2. [jekyll-theme-chirpy](https://github.com/cotes2020/jekyll-theme-chirpy)
 
-Last but not least, thank [JetBrains][jb] for providing the OSS development license.
+3. [GitHub Pages](https://docs.github.com/en/pages)
 
-## Sponsoring
+### Contributing
 
-If you like this theme or find it helpful, please consider sponsoring me, because it will encourage and help me better maintain the project, I will be very grateful!
+#### Posts
 
-[![Ko-fi](https://img.shields.io/badge/-Buy%20Me%20a%20Coffee-ff5f5f?logo=ko-fi&logoColor=white)](https://ko-fi.com/coteschung)
-[![Wechat Pay](https://img.shields.io/badge/-Tip%20Me%20on%20WeChat-brightgreen?logo=wechat&logoColor=white)][cn-donation]
-[![Alipay](https://img.shields.io/badge/-Tip%20Me%20on%20Alipay-blue?logo=alipay&logoColor=white)][cn-donation]
+1. Visit the concerned post on the [blog](https://booodaness.github.io/tempus-spatium/).
 
-## License
+2. Click the 'Suggest edits' link in the post's metadata.
 
-This work is published under [MIT](https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/LICENSE) License.
+3. Follow the steps below.
 
-<!-- ReadMe links -->
+#### General
 
-[jb]: https://www.jetbrains.com/?from=jekyll-theme-chirpy
-[cn-donation]: https://sponsor.cotes.page/
+1. [Fork this repository](https://github.com/Booodaness/tempus-spatium/fork).
+
+2. Make changes and push them to the fork's remote.
+
+3. Start a pull request.
+
+4. Optionally, document the changes in the request's review page.
+
+## Using the work
+
+### Adaptation
+
+Except where otherwise noted, the blog posts on this site are [licensed](LICENCE.md) under [Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+Hence, any individual or group of individuals can reuse and modify the material as long as:
+
+1. The purpose is non-commercial.
+
+2. Credit is given to the author by mentioning their name (Siddhartha Bhattacharjee) and linking to the original content.
+
+3. The new material must be distributed under the same license.
+
+### Citation
+
+#### Posts
+
+Blog posts can be cited as BibTeX,
+
+```
+@article{bhattacharjee:2022,
+  title={<post_title>},
+  author={Siddhartha Bhattacharjee},
+  journal={Tempus Spatium},
+  url={https://booodaness.github.io/tempus-spatium/<post_name>},
+  year={2022},
+  publisher={GitHub Pages}}
+```
+
+Where, `post_title` is the title of the post and `post_name` is the part of its URL succeeding `https://booodaness.github.io`.
+
+#### Repository
+
+To cite this repository as a dataset, use the BibTeX,
+
+```
+@misc{Bhattacharjee_Tempus_Spatium,
+author = {Bhattacharjee, Siddhartha},
+title = {{Tempus Spatium}},
+url = {https://booodaness.github.io/tempus-spatium/}
+}
+```
