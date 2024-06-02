@@ -43,7 +43,7 @@ layout: default
       {% include trending-tags.html %}
     </div>
 
-    {% for _include in layout.pannel_includes %}
+    {% for _include in layout.panel_includes %}
       {% assign _include_path = _include | append: '.html' %}
       {% include {{ _include_path }} %}
     {% endfor %}
